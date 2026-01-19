@@ -118,7 +118,6 @@ export default function Home() {
 
               {/* Text Content */}
               <div className="order-1 lg:order-2">
-                <p className="text-[#83ebeb] font-semibold mb-2">19 Jahre Berufserfahrung</p>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-4">
                   Über <span className="text-[#83ebeb]">19 Jahre</span> Berufserfahrung
                 </h2>
