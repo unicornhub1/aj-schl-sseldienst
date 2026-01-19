@@ -26,7 +26,7 @@ export default function Home() {
 
                 <a
                   href="tel:+494018204419"
-                  className="inline-flex items-center justify-center gap-3 bg-[#83ebeb] hover:bg-[#5fd4d4] text-[#1a1a1a] font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 animate-pulse-glow"
+                  className="inline-flex items-center justify-center gap-3 bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
                 >
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -75,16 +75,24 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Call Button */}
+                {/* Call Button - Mobile only */}
                 <a
                   href="tel:+494018204419"
-                  className="flex items-center justify-center gap-3 w-full bg-[#83ebeb] hover:bg-[#5fd4d4] text-[#1a1a1a] font-bold py-5 rounded-xl text-xl transition-all duration-300 hover:scale-[1.02] animate-pulse-glow"
+                  className="flex items-center justify-center gap-3 w-full bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold py-5 rounded-xl text-xl transition-all duration-300 hover:scale-[1.02] shadow-lg md:hidden"
                 >
                   <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                   040 18204419
                 </a>
+
+                {/* Desktop - Arrow pointing to floating button */}
+                <div className="hidden md:flex items-center justify-center gap-3 text-[#1a1a1a] font-medium">
+                  <span>Jetzt anrufen</span>
+                  <svg className="w-8 h-8 text-amber-500 animate-bounce-right" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </div>
 
                 <p className="text-gray-500 text-sm text-center mt-4">
                   Direkt zum Techniker - kein Callcenter
@@ -182,8 +190,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 24/7 Notfall-Hotline Section - Yellow CTA */}
-        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-amber-400 to-amber-500 overflow-hidden">
+        {/* 24/7 Notfall-Hotline Section - Dark CTA */}
+        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] overflow-hidden">
           <div className="wave-divider-top">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff">
               <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C57.12,118.92,114.23,86.14,172.83,79,246.12,69.46,265.08,67.9,321.39,56.44Z"></path>
@@ -199,17 +207,17 @@ export default function Home() {
                   <span className="text-white font-medium">24/7 Notfall-Hotline</span>
                 </div>
 
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                   Ausgesperrt oder ein anderer Notfall?
                 </h2>
 
-                <p className="text-[#1a1a1a]/80 text-lg mb-8">
+                <p className="text-gray-300 text-lg mb-8">
                   Rufen Sie uns direkt an – wir sind in 20-30 Minuten bei Ihnen!
                 </p>
 
                 <a
                   href="tel:+494018204419"
-                  className="inline-flex items-center gap-4 bg-[#1a1a1a] hover:bg-[#2a2a2a] text-white font-bold px-10 py-5 rounded-full text-2xl md:text-3xl transition-all duration-300 hover:scale-105 shadow-lg"
+                  className="inline-flex items-center gap-4 bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold px-10 py-5 rounded-full text-2xl md:text-3xl transition-all duration-300 hover:scale-105 shadow-lg"
                 >
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -355,8 +363,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Kostenlose Beratung Section - Yellow CTA */}
-        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-amber-400 to-amber-500 overflow-hidden">
+        {/* Kostenlose Beratung Section - Dark CTA */}
+        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] overflow-hidden">
           <div className="wave-divider-top">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff">
               <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C57.12,118.92,114.23,86.14,172.83,79,246.12,69.46,265.08,67.9,321.39,56.44Z"></path>
@@ -364,17 +372,17 @@ export default function Home() {
           </div>
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
-              Kostenlose <span className="text-[#1a1a1a]">Beratung</span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+              Kostenlose <span className="text-[#83ebeb]">Beratung</span>
             </h2>
 
-            <p className="text-[#1a1a1a]/80 text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
               Sie möchten Ihr Zuhause besser schützen? Lassen Sie sich von uns zum Thema Einbruchschutz beraten – kostenlos und unverbindlich!
             </p>
 
             <a
               href="tel:+494018204419"
-              className="inline-flex items-center gap-3 bg-[#1a1a1a] hover:bg-[#2a2a2a] text-white font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
+              className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -460,8 +468,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Faire Festpreise Section - Yellow CTA */}
-        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-amber-400 to-amber-500 overflow-hidden">
+        {/* Faire Festpreise Section - Dark CTA */}
+        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] overflow-hidden">
           <div className="wave-divider-top">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff">
               <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C57.12,118.92,114.23,86.14,172.83,79,246.12,69.46,265.08,67.9,321.39,56.44Z"></path>
@@ -469,17 +477,17 @@ export default function Home() {
           </div>
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
-              Faire <span className="text-[#1a1a1a]">Festpreise</span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+              Faire <span className="text-[#83ebeb]">Festpreise</span>
             </h2>
 
-            <p className="text-[#1a1a1a]/80 text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
               Schloss oder Zylinder wechseln? Wir nennen Ihnen alle Kosten vorab – transparent und ohne versteckte Gebühren!
             </p>
 
             <a
               href="tel:+494018204419"
-              className="inline-flex items-center gap-3 bg-[#1a1a1a] hover:bg-[#2a2a2a] text-white font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
+              className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -623,8 +631,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Ihr Schlüsselprofi vor Ort - Final CTA Yellow */}
-        <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-gradient-to-br from-amber-400 to-amber-500 overflow-hidden">
+        {/* Ihr Schlüsselprofi vor Ort - Final CTA Dark */}
+        <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] overflow-hidden">
           <div className="wave-divider-top">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff">
               <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C57.12,118.92,114.23,86.14,172.83,79,246.12,69.46,265.08,67.9,321.39,56.44Z"></path>
@@ -632,15 +640,15 @@ export default function Home() {
           </div>
 
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
-              Ihr Schlüsselprofi <span className="text-[#1a1a1a]">vor Ort</span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+              Ihr Schlüsselprofi <span className="text-[#83ebeb]">vor Ort</span>
             </h2>
-            <p className="text-[#1a1a1a]/80 text-lg mb-8">
+            <p className="text-gray-300 text-lg mb-8">
               Überzeugt von unseren Kundenbewertungen? Kontaktieren Sie uns jetzt und erleben Sie selbst unseren zuverlässigen Service!
             </p>
             <a
               href="tel:+494018204419"
-              className="inline-flex items-center gap-3 bg-[#1a1a1a] hover:bg-[#2a2a2a] text-white font-bold px-10 py-5 rounded-full text-xl transition-all duration-300 hover:scale-105 shadow-lg"
+              className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold px-10 py-5 rounded-full text-xl transition-all duration-300 hover:scale-105 shadow-lg"
             >
               <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
