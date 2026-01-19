@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import HeroCard from "@/components/HeroCard";
+import StickyCallButton from "@/components/StickyCallButton";
 import Image from "next/image";
 
 export default function Home() {
@@ -20,7 +20,6 @@ export default function Home() {
                   in Hamburg
                 </h1>
 
-                <p className="text-xl text-[#83ebeb] font-semibold mb-4">Hamburg und Umgebung:</p>
                 <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
                   Schnelle und professionelle Hilfe bei Ausgesperrt-Situationen, Türöffnungen, und allen Schloss-Problemen – fair, transparent und zu jeder Zeit.
                 </p>
@@ -32,63 +31,65 @@ export default function Home() {
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  Jetzt anrufen
+                  040 18204419
                 </a>
-
-                {/* Hero Features */}
-                <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="flex items-start gap-3 bg-white/5 rounded-xl p-4">
-                    <div className="w-10 h-10 bg-[#83ebeb] rounded-lg flex items-center justify-center flex-shrink-0">
-                      <svg className="w-5 h-5 text-[#1a1a1a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-white font-bold">Notfall-Schlüsseldienst</h3>
-                      <p className="text-gray-400 text-sm">Sofort Hilfe bei Ausgesperrt-Situationen</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3 bg-white/5 rounded-xl p-4">
-                    <div className="w-10 h-10 bg-[#83ebeb] rounded-lg flex items-center justify-center flex-shrink-0">
-                      <svg className="w-5 h-5 text-[#1a1a1a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-white font-bold">24/7 Erreichbar</h3>
-                      <p className="text-gray-400 text-sm">Rund um die Uhr, auch an Wochenenden und Feiertagen</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3 bg-white/5 rounded-xl p-4">
-                    <div className="w-10 h-10 bg-[#83ebeb] rounded-lg flex items-center justify-center flex-shrink-0">
-                      <svg className="w-5 h-5 text-[#1a1a1a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-white font-bold">Schnellservice</h3>
-                      <p className="text-gray-400 text-sm">Anfahrtszeit in Hamburg nur 20-30 Minuten</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3 bg-white/5 rounded-xl p-4">
-                    <div className="w-10 h-10 bg-[#83ebeb] rounded-lg flex items-center justify-center flex-shrink-0">
-                      <svg className="w-5 h-5 text-[#1a1a1a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-white font-bold text-[#83ebeb]">040 18204419</h3>
-                      <p className="text-gray-400 text-sm">Direkt anrufen - kein Callcenter</p>
-                    </div>
-                  </div>
-                </div>
               </div>
 
-              {/* Right - Hero Card with Tabs */}
-              <HeroCard />
+              {/* Right - Notfall Card */}
+              <div className="bg-white rounded-2xl p-6 md:p-8 shadow-2xl">
+                {/* Emergency Badge */}
+                <div className="flex items-center justify-center gap-2 bg-red-600 rounded-full px-4 py-2 mb-6 w-fit mx-auto">
+                  <span className="w-3 h-3 bg-white rounded-full animate-pulse"></span>
+                  <span className="text-white font-medium">24/7 Notfall-Hotline</span>
+                </div>
+
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1a1a1a] text-center mb-6">
+                  Notfall-Schlüsseldienst
+                </h2>
+
+                {/* 4 Features */}
+                <div className="space-y-3 mb-8">
+                  <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
+                    <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">Sofort Hilfe bei Ausgesperrt-Situationen</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
+                    <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">In 20-30 Minuten vor Ort</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
+                    <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">Faire Festpreise - keine versteckten Kosten</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
+                    <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">24/7 erreichbar - auch Feiertags</span>
+                  </div>
+                </div>
+
+                {/* Call Button */}
+                <a
+                  href="tel:+494018204419"
+                  className="flex items-center justify-center gap-3 w-full bg-[#83ebeb] hover:bg-[#5fd4d4] text-[#1a1a1a] font-bold py-5 rounded-xl text-xl transition-all duration-300 hover:scale-[1.02] animate-pulse-glow"
+                >
+                  <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  040 18204419
+                </a>
+
+                <p className="text-gray-500 text-sm text-center mt-4">
+                  Direkt zum Techniker - kein Callcenter
+                </p>
+              </div>
             </div>
           </div>
 
@@ -182,8 +183,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 24/7 Notfall-Hotline Section */}
-        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-[#1a1a1a] overflow-hidden">
+        {/* 24/7 Notfall-Hotline Section - Yellow CTA */}
+        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-amber-400 to-amber-500 overflow-hidden">
           <div className="wave-divider-top">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff">
               <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C57.12,118.92,114.23,86.14,172.83,79,246.12,69.46,265.08,67.9,321.39,56.44Z"></path>
@@ -194,27 +195,27 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               {/* Text Content */}
               <div className="text-center lg:text-left">
-                <div className="inline-flex items-center gap-2 bg-red-500/20 border border-red-500/40 rounded-full px-4 py-2 mb-6">
-                  <span className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></span>
-                  <span className="text-red-400 font-medium">24/7 Notfall-Hotline</span>
+                <div className="inline-flex items-center gap-2 bg-red-600 rounded-full px-4 py-2 mb-6">
+                  <span className="w-3 h-3 bg-white rounded-full animate-pulse"></span>
+                  <span className="text-white font-medium">24/7 Notfall-Hotline</span>
                 </div>
 
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
                   Ausgesperrt oder ein anderer Notfall?
                 </h2>
 
-                <p className="text-gray-400 text-lg mb-8">
+                <p className="text-[#1a1a1a]/80 text-lg mb-8">
                   Rufen Sie uns direkt an – wir sind in 20-30 Minuten bei Ihnen!
                 </p>
 
                 <a
                   href="tel:+494018204419"
-                  className="inline-flex items-center gap-4 bg-[#83ebeb] hover:bg-[#5fd4d4] text-[#1a1a1a] font-bold px-10 py-5 rounded-full text-2xl md:text-3xl transition-all duration-300 hover:scale-105 animate-pulse-glow"
+                  className="inline-flex items-center gap-4 bg-[#1a1a1a] hover:bg-[#2a2a2a] text-white font-bold px-10 py-5 rounded-full text-2xl md:text-3xl transition-all duration-300 hover:scale-105 shadow-lg"
                 >
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  Jetzt anrufen
+                  040 18204419
                 </a>
               </div>
 
@@ -355,8 +356,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Kostenlose Beratung Section */}
-        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-[#1a1a1a] overflow-hidden">
+        {/* Kostenlose Beratung Section - Yellow CTA */}
+        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-amber-400 to-amber-500 overflow-hidden">
           <div className="wave-divider-top">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff">
               <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C57.12,118.92,114.23,86.14,172.83,79,246.12,69.46,265.08,67.9,321.39,56.44Z"></path>
@@ -364,22 +365,22 @@ export default function Home() {
           </div>
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Kostenlose <span className="text-[#83ebeb]">Beratung</span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
+              Kostenlose <span className="text-[#1a1a1a]">Beratung</span>
             </h2>
 
-            <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-[#1a1a1a]/80 text-lg mb-8 max-w-2xl mx-auto">
               Sie möchten Ihr Zuhause besser schützen? Lassen Sie sich von uns zum Thema Einbruchschutz beraten – kostenlos und unverbindlich!
             </p>
 
             <a
               href="tel:+494018204419"
-              className="inline-flex items-center gap-3 bg-[#83ebeb] hover:bg-[#5fd4d4] text-[#1a1a1a] font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center gap-3 bg-[#1a1a1a] hover:bg-[#2a2a2a] text-white font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              Jetzt anrufen
+              040 18204419
             </a>
           </div>
 
@@ -460,8 +461,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Faire Festpreise Section */}
-        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-[#1a1a1a] overflow-hidden">
+        {/* Faire Festpreise Section - Yellow CTA */}
+        <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-amber-400 to-amber-500 overflow-hidden">
           <div className="wave-divider-top">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff">
               <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C57.12,118.92,114.23,86.14,172.83,79,246.12,69.46,265.08,67.9,321.39,56.44Z"></path>
@@ -469,22 +470,22 @@ export default function Home() {
           </div>
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Faire <span className="text-[#83ebeb]">Festpreise</span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
+              Faire <span className="text-[#1a1a1a]">Festpreise</span>
             </h2>
 
-            <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-[#1a1a1a]/80 text-lg mb-8 max-w-2xl mx-auto">
               Schloss oder Zylinder wechseln? Wir nennen Ihnen alle Kosten vorab – transparent und ohne versteckte Gebühren!
             </p>
 
             <a
               href="tel:+494018204419"
-              className="inline-flex items-center gap-3 bg-[#83ebeb] hover:bg-[#5fd4d4] text-[#1a1a1a] font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center gap-3 bg-[#1a1a1a] hover:bg-[#2a2a2a] text-white font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              Jetzt anrufen
+              040 18204419
             </a>
           </div>
 
@@ -623,8 +624,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Ihr Schlüsselprofi vor Ort - Final CTA */}
-        <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-[#1a1a1a] overflow-hidden">
+        {/* Ihr Schlüsselprofi vor Ort - Final CTA Yellow */}
+        <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-gradient-to-br from-amber-400 to-amber-500 overflow-hidden">
           <div className="wave-divider-top">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff">
               <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C57.12,118.92,114.23,86.14,172.83,79,246.12,69.46,265.08,67.9,321.39,56.44Z"></path>
@@ -632,25 +633,26 @@ export default function Home() {
           </div>
 
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Ihr Schlüsselprofi <span className="text-[#83ebeb]">vor Ort</span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
+              Ihr Schlüsselprofi <span className="text-[#1a1a1a]">vor Ort</span>
             </h2>
-            <p className="text-gray-400 text-lg mb-8">
+            <p className="text-[#1a1a1a]/80 text-lg mb-8">
               Überzeugt von unseren Kundenbewertungen? Kontaktieren Sie uns jetzt und erleben Sie selbst unseren zuverlässigen Service!
             </p>
             <a
               href="tel:+494018204419"
-              className="inline-flex items-center gap-3 bg-[#83ebeb] hover:bg-[#5fd4d4] text-[#1a1a1a] font-bold px-10 py-5 rounded-full text-xl transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center gap-3 bg-[#1a1a1a] hover:bg-[#2a2a2a] text-white font-bold px-10 py-5 rounded-full text-xl transition-all duration-300 hover:scale-105 shadow-lg"
             >
               <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              Jetzt anrufen
+              040 18204419
             </a>
           </div>
         </section>
       </main>
       <Footer />
+      <StickyCallButton />
     </>
   );
 }
