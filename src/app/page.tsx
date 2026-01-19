@@ -529,7 +529,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Bewertung 1 */}
-              <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+              <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="flex gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -537,10 +537,10 @@ export default function Home() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 text-sm">
+                <p className="text-gray-700 mb-4 text-sm flex-grow">
                   &quot;Schneller und zuverlässiger Service.&quot;
                 </p>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 mt-auto">
                   <div className="w-10 h-10 bg-[#83ebeb] rounded-full flex items-center justify-center text-[#1a1a1a] font-bold">
                     B
                   </div>
@@ -552,7 +552,7 @@ export default function Home() {
               </div>
 
               {/* Bewertung 2 */}
-              <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+              <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="flex gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -560,10 +560,10 @@ export default function Home() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 text-sm">
+                <p className="text-gray-700 mb-4 text-sm flex-grow">
                   &quot;Hallo, mir hat dieser Schlüsseldienst sehr gefallen. Sie waren sehr freundlich, hilfsbereit und in kurzer Zeit schon da. Würde ich jedem weiterempfehlen! Vielen Dank!&quot;
                 </p>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 mt-auto">
                   <div className="w-10 h-10 bg-[#83ebeb] rounded-full flex items-center justify-center text-[#1a1a1a] font-bold">
                     H
                   </div>
@@ -575,7 +575,7 @@ export default function Home() {
               </div>
 
               {/* Bewertung 3 */}
-              <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+              <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="flex gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -583,10 +583,10 @@ export default function Home() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 text-sm">
+                <p className="text-gray-700 mb-4 text-sm flex-grow">
                   &quot;In 10 min da gewesen hat echt mein Tag gerettet bester Mann&quot;
                 </p>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 mt-auto">
                   <div className="w-10 h-10 bg-[#83ebeb] rounded-full flex items-center justify-center text-[#1a1a1a] font-bold">
                     L
                   </div>
@@ -598,7 +598,7 @@ export default function Home() {
               </div>
 
               {/* Bewertung 4 */}
-              <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+              <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="flex gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -606,10 +606,10 @@ export default function Home() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 text-sm">
+                <p className="text-gray-700 mb-4 text-sm flex-grow">
                   &quot;5 Sterne Top Service! Super zufrieden, freundlich, schnell und professionell!&quot;
                 </p>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 mt-auto">
                   <div className="w-10 h-10 bg-[#83ebeb] rounded-full flex items-center justify-center text-[#1a1a1a] font-bold">
                     V
                   </div>
