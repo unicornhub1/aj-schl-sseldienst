@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import HeroCard from "@/components/HeroCard";
 import Image from "next/image";
 
 export default function Home() {
@@ -86,47 +87,8 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Right - Contact Form */}
-              <div className="bg-white rounded-2xl p-6 md:p-8 shadow-2xl">
-                <h2 className="text-2xl font-bold text-[#1a1a1a] mb-2">Kostenlose Beratung</h2>
-                <p className="text-gray-600 mb-6">Wir rufen Sie schnellstmöglich zurück!</p>
-
-                <form className="space-y-4">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#83ebeb] focus:border-transparent transition-all text-gray-900"
-                      placeholder="Ihr Name"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Telefon</label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#83ebeb] focus:border-transparent transition-all text-gray-900"
-                      placeholder="Ihre Telefonnummer"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Nachricht</label>
-                    <textarea
-                      id="message"
-                      rows={3}
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#83ebeb] focus:border-transparent transition-all text-gray-900 resize-none"
-                      placeholder="Wie können wir Ihnen helfen?"
-                    ></textarea>
-                  </div>
-                  <button
-                    type="submit"
-                    className="w-full bg-[#83ebeb] hover:bg-[#5fd4d4] text-[#1a1a1a] font-bold py-4 rounded-lg transition-all duration-300 hover:scale-[1.02]"
-                  >
-                    Rückruf anfordern
-                  </button>
-                </form>
-              </div>
+              {/* Right - Hero Card with Tabs */}
+              <HeroCard />
             </div>
           </div>
 
