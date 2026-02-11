@@ -24,18 +24,18 @@ export default function Tueroeffnung() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
               <div className="text-white">
+                <div className="mb-5">
+                  <GoogleRating variant="dark" />
+                </div>
+
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Professionelle <span className="text-[#83ebeb]">Türöffnung</span><br />
                   in Hamburg
                 </h1>
 
-                <p className="text-gray-300 text-lg md:text-xl mb-6 leading-relaxed">
+                <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
                   Ausgesperrt oder Schlüssel verloren? Unser Schlüsseldienst in Hamburg öffnet Ihre Haus- oder Wohnungstür schnell, zuverlässig und ohne Schäden – zu fairen Festpreisen. Rund um die Uhr erreichbar.
                 </p>
-
-                <div className="mb-6">
-                  <GoogleRating variant="dark" />
-                </div>
 
                 <div className="flex flex-wrap gap-4">
                   <a

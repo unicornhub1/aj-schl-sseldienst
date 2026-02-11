@@ -24,6 +24,10 @@ export default function HamburgAltona() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
               <div className="text-white">
+                <div className="mb-5">
+                  <GoogleRating variant="dark" />
+                </div>
+
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Schlüsseldienst<br />
                   <span className="text-[#83ebeb]">Hamburg-Altona</span>
@@ -32,10 +36,6 @@ export default function HamburgAltona() {
                 <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
                   Ihr zuverlässiger Schlüsseldienst in Altona, Ottensen, Bahrenfeld und Umgebung. Schnell vor Ort, faire Preise, keine versteckten Kosten.
                 </p>
-
-                <div className="mb-6">
-                  <GoogleRating variant="dark" />
-                </div>
 
                 <a
                   href="tel:+494018204419"

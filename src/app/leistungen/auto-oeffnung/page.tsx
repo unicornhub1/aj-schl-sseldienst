@@ -24,18 +24,18 @@ export default function AutoOeffnung() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
               <div className="text-white">
+                <div className="mb-5">
+                  <GoogleRating variant="dark" />
+                </div>
+
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Professionell <span className="text-[#83ebeb]">Auto öffnen</span><br />
                   in Hamburg
                 </h1>
 
-                <p className="text-gray-300 text-lg md:text-xl mb-6 leading-relaxed">
+                <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
                   Schlüssel im Auto eingesperrt? Unser Auto Schlüsseldienst in Hamburg hilft sofort! Wir öffnen Ihr Fahrzeug schnell, schadensfrei und zu fairen Festpreisen – rund um die Uhr.
                 </p>
-
-                <div className="mb-6">
-                  <GoogleRating variant="dark" />
-                </div>
 
                 <div className="flex flex-wrap gap-4">
                   <a

@@ -24,18 +24,18 @@ export default function Schluesselnotdienst() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
               <div className="text-white">
+                <div className="mb-5">
+                  <GoogleRating variant="dark" />
+                </div>
+
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   <span className="text-[#83ebeb]">Schlüsselnotdienst</span><br />
                   Hamburg – 24/7
                 </h1>
 
-                <p className="text-gray-300 text-lg md:text-xl mb-6 leading-relaxed">
+                <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
                   Ausgesperrt oder Schlüssel verloren? Unser Schlüssel Notdienst in Hamburg ist rund um die Uhr für Sie da – schnell, zuverlässig und zu fairen Festpreisen. Rufen Sie jetzt unsere Notfall-Hotline an.
                 </p>
-
-                <div className="mb-6">
-                  <GoogleRating variant="dark" />
-                </div>
 
                 <div className="flex flex-wrap gap-4">
                   <a

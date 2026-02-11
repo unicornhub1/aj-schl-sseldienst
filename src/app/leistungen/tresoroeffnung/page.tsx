@@ -24,18 +24,18 @@ export default function Tresoroeffnung() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
               <div className="text-white">
+                <div className="mb-5">
+                  <GoogleRating variant="dark" />
+                </div>
+
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Professionelle <span className="text-[#83ebeb]">Tresoröffnung</span><br />
                   in Hamburg
                 </h1>
 
-                <p className="text-gray-300 text-lg md:text-xl mb-6 leading-relaxed">
+                <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
                   Tresor lässt sich nicht öffnen? Kombination vergessen oder Schlüssel verloren? Wir öffnen Ihren Safe schnell, fachgerecht und wenn möglich zerstörungsfrei – zu fairen Festpreisen.
                 </p>
-
-                <div className="mb-6">
-                  <GoogleRating variant="dark" />
-                </div>
 
                 <div className="flex flex-wrap gap-4">
                   <a
