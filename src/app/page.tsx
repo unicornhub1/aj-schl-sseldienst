@@ -1,15 +1,99 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/StickyCallButton";
+import FAQ from "@/components/FAQ";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
       <Header />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Locksmith",
+            name: "AJ Schlüsseldienst Hamburg",
+            image: "https://aj-schluesseldienst.de/images/ajplus800.jpg",
+            telephone: "+494018204419",
+            email: "info@aj-schluesseldienst.de",
+            url: "https://aj-schluesseldienst.de",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Hamburg",
+              addressRegion: "HH",
+              addressCountry: "DE",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 53.5511,
+              longitude: 9.9937,
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday", "Tuesday", "Wednesday", "Thursday",
+                "Friday", "Saturday", "Sunday",
+              ],
+              opens: "00:00",
+              closes: "23:59",
+            },
+            priceRange: "$$",
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "5.0",
+              reviewCount: "1065",
+              bestRating: "5",
+              worstRating: "1",
+            },
+            areaServed: {
+              "@type": "City",
+              name: "Hamburg",
+            },
+            description:
+              "Schlüsseldienst Hamburg – 24/7 Schlüsselnotdienst. Türöffnung, Autoöffnung, Tresoröffnung. In 20-30 Min vor Ort. Faire Festpreise. Über 19 Jahre Erfahrung.",
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Schlüsseldienst Leistungen",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Türöffnung Hamburg",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Autoöffnung Hamburg",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Tresoröffnung Hamburg",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Schlüsselnotdienst Hamburg",
+                  },
+                },
+              ],
+            },
+          }),
+        }}
+      />
       <main>
         {/* Hero Section */}
-        <section id="start" className="relative min-h-screen bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] pt-20 pb-12">
+        <section id="start" className="relative min-h-screen bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] pt-20 md:pt-28 pb-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-20 pb-16 md:pb-24">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
@@ -21,18 +105,31 @@ export default function Home() {
                 </h1>
 
                 <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
-                  Schnelle und professionelle Hilfe bei Ausgesperrt-Situationen, Türöffnungen, und allen Schloss-Problemen – fair, transparent und zu jeder Zeit.
+                  Ihr Schlüsselnotdienst in Hamburg – schnelle und professionelle Hilfe bei Türöffnungen, Autoöffnungen, Tresoröffnungen und allen Schloss-Problemen. Fair, transparent und 24 Stunden erreichbar.
                 </p>
 
-                <a
-                  href="tel:+494018204419"
-                  className="inline-flex items-center justify-center gap-3 bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
-                >
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  040 18204419
-                </a>
+                <div className="flex flex-wrap items-center gap-3">
+                  <a
+                    href="tel:+494018204419"
+                    className="inline-flex items-center justify-center gap-3 bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
+                  >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    040 18204419
+                  </a>
+                  <a
+                    href="https://wa.me/494018204419"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-6 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
+                  >
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    WhatsApp
+                  </a>
+                </div>
               </div>
 
               {/* Right - Notfall Card */}
@@ -75,24 +172,15 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Call Button - Mobile only */}
                 <a
                   href="tel:+494018204419"
-                  className="flex items-center justify-center gap-3 w-full bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold py-5 rounded-xl text-xl transition-all duration-300 hover:scale-[1.02] shadow-lg md:hidden"
+                  className="flex items-center justify-center gap-3 w-full bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold py-5 rounded-xl text-xl transition-all duration-300 hover:scale-[1.02] shadow-lg"
                 >
                   <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  040 18204419
+                  Jetzt anrufen
                 </a>
-
-                {/* Desktop - Arrow pointing to floating button */}
-                <div className="hidden md:flex items-center justify-center gap-3 text-[#1a1a1a] font-medium">
-                  <span>Jetzt anrufen</span>
-                  <svg className="w-8 h-8 text-amber-500 animate-bounce-right" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
 
                 <p className="text-gray-500 text-sm text-center mt-4">
                   Direkt zum Techniker - kein Callcenter
@@ -260,38 +348,38 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Türöffnung */}
-              <div className="group p-6 bg-gray-50 rounded-2xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[#83ebeb]">
+              <Link href="/leistungen/tueroeffnung" className="group p-6 bg-gray-50 rounded-2xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[#83ebeb]">
                 <div className="w-14 h-14 bg-[#83ebeb] rounded-xl flex items-center justify-center mb-4">
                   <svg className="w-7 h-7 text-[#1a1a1a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Türöffnung</h3>
+                <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Türöffnung Hamburg</h3>
                 <p className="text-gray-600">Ausgesperrt? Wir öffnen Ihre Haus- oder Wohnungstür schnell, zuverlässig und ohne Schäden.</p>
-              </div>
+              </Link>
 
               {/* Autoöffnung */}
-              <div className="group p-6 bg-gray-50 rounded-2xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[#83ebeb]">
+              <Link href="/leistungen/auto-oeffnung" className="group p-6 bg-gray-50 rounded-2xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[#83ebeb]">
                 <div className="w-14 h-14 bg-[#83ebeb] rounded-xl flex items-center justify-center mb-4">
                   <svg className="w-7 h-7 text-[#1a1a1a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Autoöffnung</h3>
+                <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Schlüsseldienst Auto öffnen</h3>
                 <p className="text-gray-600">Auto zu und Schlüssel drin? Wir öffnen Ihr Fahrzeug schnell und ohne Schaden.</p>
-              </div>
+              </Link>
 
               {/* Tresoröffnung */}
-              <div className="group p-6 bg-gray-50 rounded-2xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[#83ebeb]">
+              <Link href="/leistungen/tresoroeffnung" className="group p-6 bg-gray-50 rounded-2xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[#83ebeb]">
                 <div className="w-14 h-14 bg-[#83ebeb] rounded-xl flex items-center justify-center mb-4">
                   <svg className="w-7 h-7 text-[#1a1a1a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Tresoröffnung</h3>
+                <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Tresoröffnung Hamburg</h3>
                 <p className="text-gray-600">Sie kommen nicht mehr an Ihren Tresor? Wir öffnen ihn fachgerecht und sicher.</p>
-              </div>
+              </Link>
 
               {/* Schließzylinder Montage */}
               <div className="group p-6 bg-gray-50 rounded-2xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[#83ebeb]">
@@ -503,6 +591,89 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Einsatzgebiete / Stadtteile Section */}
+        <section id="einsatzgebiete" className="py-16 md:py-24 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12 md:mb-16">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-4">
+                Ihr <span className="text-[#83ebeb]">Schlüsseldienst</span> in ganz Hamburg
+              </h2>
+              <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                Wir sind Ihr zuverlässiger Schlüsselnotdienst in Hamburg und Umgebung. In 20-30 Minuten sind wir bei Ihnen – egal in welchem Stadtteil.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Harburg</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Harburg – 24/7 erreichbar</p>
+              </div>
+              <Link href="/hamburg-altona" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Altona</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Türöffnung in Altona – schnell vor Ort</p>
+              </Link>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Wandsbek</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Wandsbek – faire Preise</p>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Bergedorf</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Bergedorf – Notöffnung 24h</p>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Eimsbüttel</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Türöffnung Eimsbüttel – ohne Beschädigung</p>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Barmbek</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsseldienst Hamburg Barmbek – Ihr Profi</p>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Wilhelmsburg</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Notdienst Wilhelmsburg – rund um die Uhr</p>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Bramfeld</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsseldienst Bramfeld – in 20 Min. da</p>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Rahlstedt</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsseldienst Rahlstedt – Festpreis</p>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Ottensen</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Türöffnung Ottensen – professionell & fair</p>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Eppendorf</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Eppendorf – zuverlässig</p>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Winterhude</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Winterhude – sofort Hilfe</p>
+              </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <p className="text-gray-500 text-sm">
+                Außerdem sind wir in folgenden Gebieten für Sie da: Schlüsseldienst Norderstedt, Schlüsseldienst Pinneberg, Schlüsseldienst Hamburg Mitte, Schlüsseldienst Hamburg Hamm, Schlüsseldienst Hamburg Innenstadt, Schlüsseldienst Neugraben, Schlüsseldienst Fuhlsbüttel, Schlüsseldienst Langenhorn, Schlüsseldienst Volksdorf, Schlüsseldienst Hamburg Billstedt, Schlüsseldienst Hamburg Lokstedt, Schlüsseldienst Glinde, Schlüsseldienst Bargteheide und weitere Stadtteile in Hamburg und Umgebung.
+              </p>
+            </div>
+
+            <div className="mt-8 text-center">
+              <a
+                href="tel:+494018204419"
+                className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                040 18204419 – Jetzt anrufen
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* Kundenbewertungen Section */}
         <section className="py-16 md:py-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -630,6 +801,37 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <FAQ
+          heading={<>Häufige Fragen zum <span className="text-[#83ebeb]">Schlüsseldienst Hamburg</span></>}
+          subtitle="Alles, was Sie über unseren Schlüsseldienst in Hamburg wissen müssen."
+          items={[
+            {
+              question: "Was kostet ein Schlüsseldienst in Hamburg?",
+              answer: "Bei AJ Schlüsseldienst arbeiten wir mit fairen Festpreisen – ohne versteckte Kosten oder überhöhte Nacht-Aufschläge. Die Kosten hängen von der Art der Türöffnung und der Tageszeit ab. Rufen Sie uns an und wir nennen Ihnen vorab den genauen Preis.",
+            },
+            {
+              question: "Wie schnell ist der Schlüsseldienst in Hamburg vor Ort?",
+              answer: "Unser Schlüsseldienst ist in der Regel innerhalb von 20-30 Minuten bei Ihnen vor Ort in Hamburg. Wir sind in allen Stadtteilen im Einsatz – von Altona über Eimsbüttel, Barmbek und Wandsbek bis nach Harburg und Bergedorf.",
+            },
+            {
+              question: "Arbeitet der Schlüsseldienst auch nachts und am Wochenende?",
+              answer: "Ja, unser 24/7 Schlüsselnotdienst ist rund um die Uhr erreichbar – auch nachts, am Wochenende und an Feiertagen. Egal wann Sie sich aussperren, rufen Sie uns an und unser Techniker kommt sofort zu Ihnen.",
+            },
+            {
+              question: "Wird meine Tür bei der Öffnung beschädigt?",
+              answer: "Nein, in den allermeisten Fällen öffnen wir Ihre Tür komplett schadensfrei. Mit über 19 Jahren Erfahrung und professionellem Spezialwerkzeug garantieren wir eine schonende Türöffnung ohne Beschädigung am Schloss oder Türrahmen.",
+            },
+            {
+              question: "Welche Leistungen bietet AJ Schlüsseldienst an?",
+              answer: "Wir bieten ein umfassendes Angebot: Türöffnung, Autoöffnung, Tresoröffnung, Schließzylinder-Wechsel, Einsteckschloss-Montage, Schließanlagen, Einbruchschutz, Reparatur von Einbruchschäden und Sicherheitsberatung. Alles aus einer Hand – fair und transparent.",
+            },
+            {
+              question: "Ist AJ Schlüsseldienst ein seriöser Schlüsseldienst?",
+              answer: "Ja, AJ Schlüsseldienst ist seit über 19 Jahren in Hamburg tätig. Wir haben über 1.065 Google-Bewertungen mit 5,0 Sternen. Sie sprechen direkt mit dem Techniker – ohne Callcenter oder Weitervermittlung. Faire Festpreise werden immer vorab genannt.",
+            },
+          ]}
+        />
 
         {/* Ihr Schlüsselprofi vor Ort - Final CTA Dark */}
         <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] overflow-hidden">

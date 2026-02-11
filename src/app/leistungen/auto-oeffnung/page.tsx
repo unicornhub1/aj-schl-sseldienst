@@ -5,14 +5,14 @@ import Image from "next/image";
 import FAQ from "@/components/FAQ";
 
 export const metadata = {
-  title: "Türöffnung Hamburg | 24/7 Schlüsseldienst Türöffnung | AJ Schlüsseldienst",
-  description: "Ausgesperrt in Hamburg? Professionelle Türöffnung ohne Schäden. In 20-30 Min vor Ort. Faire Festpreise, keine versteckten Kosten. Tür öffnen lassen vom Profi. ☎ 040 18204419",
+  title: "Auto öffnen Hamburg | Schlüsseldienst Auto öffnen | AJ Schlüsseldienst",
+  description: "Auto zugefallen? Schlüssel im Auto eingeschlossen? Professionelle Autoöffnung in Hamburg ohne Schäden. 24/7 Autoschlüssel Notdienst. Faire Festpreise. ☎ 040 18204419",
   alternates: {
-    canonical: "https://aj-schluesseldienst.de/leistungen/tueroeffnung",
+    canonical: "https://aj-schluesseldienst.de/leistungen/auto-oeffnung",
   },
 };
 
-export default function Tueroeffnung() {
+export default function AutoOeffnung() {
   return (
     <>
       <Header />
@@ -24,12 +24,12 @@ export default function Tueroeffnung() {
               {/* Left Content */}
               <div className="text-white">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Professionelle <span className="text-[#83ebeb]">Türöffnung</span><br />
+                  Professionell <span className="text-[#83ebeb]">Auto öffnen</span><br />
                   in Hamburg
                 </h1>
 
                 <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
-                  Ausgesperrt oder Schlüssel verloren? Unser Schlüsseldienst in Hamburg öffnet Ihre Haus- oder Wohnungstür schnell, zuverlässig und ohne Schäden – zu fairen Festpreisen. Rund um die Uhr erreichbar.
+                  Schlüssel im Auto eingesperrt? Unser Auto Schlüsseldienst in Hamburg hilft sofort! Wir öffnen Ihr Fahrzeug schnell, schadensfrei und zu fairen Festpreisen – rund um die Uhr.
                 </p>
 
                 <div className="flex flex-wrap gap-4">
@@ -62,11 +62,11 @@ export default function Tueroeffnung() {
                 {/* Emergency Badge */}
                 <div className="flex items-center justify-center gap-2 bg-red-600 rounded-full px-4 py-2 mb-6 w-fit mx-auto">
                   <span className="w-3 h-3 bg-white rounded-full animate-pulse"></span>
-                  <span className="text-white font-medium">24/7 Notfall-Hotline</span>
+                  <span className="text-white font-medium">24/7 Autoschlüssel Notdienst</span>
                 </div>
 
                 <h2 className="text-2xl md:text-3xl font-bold text-[#1a1a1a] text-center mb-6">
-                  Türöffnung Hamburg
+                  Autoöffnung Hamburg
                 </h2>
 
                 {/* 4 Features */}
@@ -81,7 +81,7 @@ export default function Tueroeffnung() {
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Türöffnung ohne Beschädigung</span>
+                    <span className="text-gray-700">Auto öffnen ohne Schlüssel - schadensfrei</span>
                   </div>
                   <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -93,7 +93,7 @@ export default function Tueroeffnung() {
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">19 Jahre Erfahrung</span>
+                    <span className="text-gray-700">Alle Automarken und Modelle</span>
                   </div>
                 </div>
 
@@ -108,7 +108,7 @@ export default function Tueroeffnung() {
                 </a>
 
                 <p className="text-gray-500 text-sm text-center mt-4">
-                  Direkt zum Techniker – kein Callcenter
+                  Direkt zum Techniker - kein Callcenter
                 </p>
               </div>
             </div>
@@ -122,15 +122,15 @@ export default function Tueroeffnung() {
           </div>
         </section>
 
-        {/* Wann brauchen Sie Türöffnung Section */}
+        {/* Wann brauchen Sie eine Autoöffnung Section */}
         <section className="py-16 md:py-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-12 md:mb-16">
               {/* Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
                 <Image
-                  src="/images/tuerschloss.png"
-                  alt="Türöffnung Hamburg - Schlüsseldienst Türöffnung"
+                  src="/images/experience.png"
+                  alt="Autoöffnung Hamburg - Schlüsseldienst Auto öffnen"
                   width={600}
                   height={400}
                   className="w-full h-auto object-cover"
@@ -140,7 +140,7 @@ export default function Tueroeffnung() {
               {/* Text Content */}
               <div className="order-1 lg:order-2">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
-                  Wann brauchen Sie eine <span className="text-[#83ebeb]">Türöffnung?</span>
+                  Wann brauchen Sie eine <span className="text-[#83ebeb]">Autoöffnung?</span>
                 </h2>
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
@@ -150,8 +150,8 @@ export default function Tueroeffnung() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Schlüssel vergessen oder verloren</h3>
-                      <p className="text-gray-600">Kommt vor – wir helfen schnell und unkompliziert. Unser Schlüsseldienst öffnet Ihre Wohnungstür in wenigen Minuten.</p>
+                      <h3 className="font-bold text-[#1a1a1a]">Schlüssel im Auto eingeschlossen</h3>
+                      <p className="text-gray-600">Tür zugefallen und der Schlüssel liegt noch im Fahrzeug? Wir öffnen Ihr Auto schnell und schadensfrei.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -161,8 +161,8 @@ export default function Tueroeffnung() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Schlüssel im Schloss abgebrochen</h3>
-                      <p className="text-gray-600">Wir entfernen den Schlüsselrest und öffnen die Tür schadensfrei. Anschließend beraten wir Sie zum Schlossaustausch.</p>
+                      <h3 className="font-bold text-[#1a1a1a]">Autoschlüssel verloren</h3>
+                      <p className="text-gray-600">Schlüssel weg? Unser Autoschlüssel Notdienst hilft Ihnen weiter und öffnet Ihr Fahrzeug vor Ort.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -172,8 +172,8 @@ export default function Tueroeffnung() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Tür zugefallen (Schnapper)</h3>
-                      <p className="text-gray-600">In Sekunden geöffnet – ohne Schaden am Schloss oder der Tür. Die häufigste Art der Türöffnung in Hamburg.</p>
+                      <h3 className="font-bold text-[#1a1a1a]">Schlüssel abgebrochen</h3>
+                      <p className="text-gray-600">Schlüssel im Schloss abgebrochen? Wir entfernen den Rest und öffnen Ihr Auto ohne weitere Schäden.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -183,19 +183,8 @@ export default function Tueroeffnung() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Defektes Schloss</h3>
-                      <p className="text-gray-600">Schlüssel lässt sich nicht drehen? Wir öffnen die Tür und reparieren oder tauschen das Schloss fachgerecht aus.</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="w-8 h-8 bg-[#83ebeb] rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-5 h-5 text-[#1a1a1a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Einbruchschaden an der Tür</h3>
-                      <p className="text-gray-600">Nach einem Einbruch sichern wir Ihre Tür sofort und sorgen für ein neues, sicheres Schloss.</p>
+                      <h3 className="font-bold text-[#1a1a1a]">Elektronisches Schließsystem defekt</h3>
+                      <p className="text-gray-600">Funkschlüssel reagiert nicht oder Batterie leer? Wir öffnen auch Fahrzeuge mit elektronischen Schließsystemen.</p>
                     </div>
                   </div>
                 </div>
@@ -204,7 +193,7 @@ export default function Tueroeffnung() {
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* Dark CTA Section */}
         <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] overflow-hidden">
           <div className="wave-divider-top">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff">
@@ -218,15 +207,15 @@ export default function Tueroeffnung() {
               <div className="text-center lg:text-left">
                 <div className="inline-flex items-center gap-2 bg-red-600 rounded-full px-4 py-2 mb-6">
                   <span className="w-3 h-3 bg-white rounded-full animate-pulse"></span>
-                  <span className="text-white font-medium">24/7 Notfall-Hotline</span>
+                  <span className="text-white font-medium">24/7 Autoschlüssel Notdienst</span>
                 </div>
 
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-                  Ausgesperrt? Tür öffnen lassen – sofort!
+                  Auto aufschließen in Hamburg? Sofort-Hilfe!
                 </h2>
 
                 <p className="text-gray-300 text-lg mb-8">
-                  Rufen Sie uns direkt an oder schreiben Sie per WhatsApp – wir sind in 20-30 Minuten bei Ihnen und öffnen Ihre Tür schadensfrei!
+                  Rufen Sie uns direkt an oder schreiben Sie uns per WhatsApp – wir sind in 20-30 Minuten bei Ihrem Fahrzeug!
                 </p>
 
                 <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
@@ -258,7 +247,7 @@ export default function Tueroeffnung() {
               <div className="hidden lg:flex justify-center">
                 <Image
                   src="/images/ajplus800.jpg"
-                  alt="AJ Schlüsseldienst - Türöffnung Hamburg anrufen"
+                  alt="AJ Schlüsseldienst - Auto Schlüsseldienst Hamburg"
                   width={400}
                   height={400}
                   className="w-auto h-auto max-h-[350px] object-contain"
@@ -274,15 +263,15 @@ export default function Tueroeffnung() {
           </div>
         </section>
 
-        {/* So arbeiten wir Section */}
+        {/* So funktioniert die Autoöffnung Section */}
         <section className="py-16 md:py-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 md:mb-16">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-4">
-                So funktioniert die <span className="text-[#83ebeb]">Türöffnung</span>
+                So funktioniert die <span className="text-[#83ebeb]">Autoöffnung</span>
               </h2>
               <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                In 3 einfachen Schritten sind Sie wieder in Ihrer Wohnung – schnell und ohne Schäden.
+                In 3 einfachen Schritten ist Ihr Fahrzeug wieder offen – ganz ohne Schäden.
               </p>
             </div>
 
@@ -294,7 +283,7 @@ export default function Tueroeffnung() {
                 </div>
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Anruf oder WhatsApp</h3>
                 <p className="text-gray-600">
-                  Rufen Sie uns an unter 040 18204419 oder schreiben Sie per WhatsApp. Wir sind rund um die Uhr erreichbar – auch nachts und an Feiertagen.
+                  Kontaktieren Sie uns unter 040 18204419 oder per WhatsApp. Schildern Sie kurz die Situation und Ihren Standort.
                 </p>
               </div>
 
@@ -303,9 +292,9 @@ export default function Tueroeffnung() {
                 <div className="w-20 h-20 bg-[#83ebeb] rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl font-bold text-[#1a1a1a]">2</span>
                 </div>
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Ankunft in 20-30 Minuten</h3>
+                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Schnelle Anfahrt</h3>
                 <p className="text-gray-600">
-                  Unser Techniker macht sich sofort auf den Weg und ist in 20-30 Minuten bei Ihnen vor Ort in Hamburg – mit allem nötigen Werkzeug.
+                  Unser Techniker macht sich sofort auf den Weg und ist in 20-30 Minuten bei Ihrem Fahrzeug in Hamburg.
                 </p>
               </div>
 
@@ -314,9 +303,9 @@ export default function Tueroeffnung() {
                 <div className="w-20 h-20 bg-[#83ebeb] rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl font-bold text-[#1a1a1a]">3</span>
                 </div>
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Schadensfreie Türöffnung</h3>
+                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Schadensfreie Autoöffnung</h3>
                 <p className="text-gray-600">
-                  Professionelle Öffnung mit Spezialwerkzeug – ohne Beschädigung an Tür oder Schloss. Sie sind wieder drin und zahlen nur den vereinbarten Festpreis.
+                  Mit Spezialwerkzeug öffnen wir Ihr Auto ohne Beschädigung – Sie können sofort weiterfahren!
                 </p>
               </div>
             </div>
@@ -324,32 +313,32 @@ export default function Tueroeffnung() {
         </section>
 
         <FAQ
-          heading={<>Häufige Fragen zur <span className="text-[#83ebeb]">Türöffnung</span></>}
-          subtitle="Alles, was Sie über unsere Türöffnung in Hamburg wissen müssen."
+          heading={<>Häufige Fragen zur <span className="text-[#83ebeb]">Autoöffnung</span></>}
+          subtitle="Alles, was Sie zum Thema Schlüsseldienst Auto öffnen wissen müssen."
           items={[
             {
-              question: "Was kostet eine Türöffnung in Hamburg?",
-              answer: "Bei AJ Schlüsseldienst arbeiten wir mit fairen Festpreisen. Die Kosten für eine Türöffnung hängen von der Art des Schlosses und der Tageszeit ab. Bei einer einfachen zugefallenen Tür (Schnapper) ist die Öffnung besonders günstig. Rufen Sie uns an und wir nennen Ihnen vorab den genauen Preis – ohne versteckte Kosten oder Aufschläge.",
+              question: "Was kostet es, ein Auto öffnen zu lassen?",
+              answer: "Die Kosten für eine Autoöffnung in Hamburg hängen vom Fahrzeugtyp und der Tageszeit ab. Bei AJ Schlüsseldienst arbeiten wir mit fairen Festpreisen – ohne versteckte Kosten. Rufen Sie uns an unter 040 18204419 für ein unverbindliches Angebot.",
             },
             {
-              question: "Wird die Tür bei der Türöffnung beschädigt?",
-              answer: "Nein, in den allermeisten Fällen öffnen wir Ihre Tür komplett schadensfrei. Mit über 19 Jahren Erfahrung und professionellem Spezialwerkzeug garantieren wir eine schonende Türöffnung ohne Beschädigung am Schloss oder Türrahmen. Nur bei Hochsicherheitsschlössern kann in seltenen Fällen ein Schlossaustausch nötig sein – darüber informieren wir Sie vorher transparent.",
+              question: "Kann mein Auto ohne Schäden geöffnet werden?",
+              answer: "Ja! Unsere Techniker sind darauf spezialisiert, Fahrzeuge schadensfrei zu öffnen. Mit professionellem Spezialwerkzeug öffnen wir Ihr Auto ohne Kratzer oder Beschädigungen am Lack, an der Tür oder am Schloss. Die schadensfreie Autoöffnung ist unser Standard.",
             },
             {
-              question: "Wie schnell sind Sie bei einer Türöffnung vor Ort?",
-              answer: "Unser Schlüsseldienst ist in der Regel innerhalb von 20-30 Minuten bei Ihnen vor Ort in Hamburg. Wir sind in allen Stadtteilen im Einsatz – von Altona und Eimsbüttel über Barmbek und Wandsbek bis nach Harburg und Bergedorf.",
+              question: "Wie schnell sind Sie bei einer Autoöffnung in Hamburg vor Ort?",
+              answer: "In der Regel sind wir innerhalb von 20-30 Minuten bei Ihrem Fahrzeug in Hamburg. Unser Auto Schlüsseldienst ist rund um die Uhr einsatzbereit – auch an Wochenenden und Feiertagen.",
             },
             {
-              question: "Bieten Sie Türöffnungen auch nachts und am Wochenende an?",
-              answer: "Ja, unser 24/7 Schlüsseldienst ist rund um die Uhr für Sie da – auch nachts, am Wochenende und an Feiertagen. Egal wann Sie sich aussperren, rufen Sie uns an und unser Techniker kommt sofort zu Ihnen.",
+              question: "Welche Automarken können Sie öffnen?",
+              answer: "Wir öffnen alle gängigen Automarken und Modelle – von VW, BMW, Mercedes und Audi bis hin zu Ford, Opel, Toyota und vielen mehr. Auch Fahrzeuge mit modernen elektronischen Schließsystemen sind kein Problem für unseren Autoschlüssel Notdienst.",
             },
             {
-              question: "Welche Türen können Sie öffnen?",
-              answer: "Wir öffnen alle gängigen Türtypen: Wohnungstüren, Haustüren, Kellertüren, Bürotüren und Zimmertüren. Ob einfaches Schnappschloss, Buntbartschloss oder Sicherheitsschloss – mit unserem Spezialwerkzeug und über 19 Jahren Erfahrung finden wir immer eine Lösung.",
+              question: "Brauche ich einen Eigentumsnachweis für die Autoöffnung?",
+              answer: "Ja, aus Sicherheitsgründen benötigen wir einen Nachweis, dass Sie der Fahrzeughalter sind. Bitte halten Sie Ihren Fahrzeugschein oder Personalausweis bereit. So schützen wir Sie und Ihr Fahrzeug vor unbefugtem Zugriff.",
             },
             {
-              question: "Brauche ich einen Nachweis, dass es meine Wohnung ist?",
-              answer: "Ja, aus Sicherheitsgründen benötigen wir einen Nachweis, dass Sie berechtigt sind, die Wohnung zu betreten. Das kann ein Personalausweis mit der entsprechenden Adresse, ein Mietvertrag oder eine Bestätigung des Vermieters sein. So schützen wir Sie und Ihre Nachbarn.",
+              question: "Wie funktioniert das Auto öffnen ohne Schlüssel?",
+              answer: "Unsere erfahrenen Techniker verwenden professionelles Spezialwerkzeug, um Ihr Auto ohne Schlüssel zu öffnen. Je nach Fahrzeugtyp kommen verschiedene Methoden zum Einsatz – immer mit dem Ziel, Ihr Fahrzeug schnell und ohne jegliche Beschädigung zu öffnen.",
             },
           ]}
         />
@@ -364,10 +353,10 @@ export default function Tueroeffnung() {
 
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Ihr Experte für <span className="text-[#83ebeb]">Türöffnung in Hamburg</span>
+              Ihr Experte für <span className="text-[#83ebeb]">Autoöffnung in Hamburg</span>
             </h2>
             <p className="text-gray-300 text-lg mb-8">
-              Über 19 Jahre Erfahrung. Faire Festpreise. Schadensfreie Türöffnung. Zufriedene Kunden in ganz Hamburg.
+              Über 19 Jahre Erfahrung. Faire Preise. Schadensfreie Autoöffnung. Zufriedene Kunden in ganz Hamburg.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a
@@ -386,7 +375,7 @@ export default function Tueroeffnung() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-8 py-5 rounded-full text-xl transition-all duration-300 hover:scale-105 shadow-lg"
               >
-                <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                 </svg>
                 WhatsApp

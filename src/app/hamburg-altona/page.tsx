@@ -1,11 +1,15 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/StickyCallButton";
+import FAQ from "@/components/FAQ";
 import Image from "next/image";
 
 export const metadata = {
   title: "Schlüsseldienst Altona | 24/7 Notdienst Hamburg | AJ Schlüsseldienst",
   description: "Schlüsseldienst in Hamburg-Altona. In 20-30 Min vor Ort. Faire Festpreise, keine versteckten Kosten. 24/7 Notdienst. ☎ 040 18204419",
+  alternates: {
+    canonical: "https://aj-schluesseldienst.de/hamburg-altona",
+  },
 };
 
 export default function HamburgAltona() {
@@ -14,7 +18,7 @@ export default function HamburgAltona() {
       <Header />
       <main>
         {/* Hero Section - wie Startseite */}
-        <section className="relative min-h-screen bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] pt-20 pb-12">
+        <section className="relative min-h-screen bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] pt-20 md:pt-28 pb-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-20 pb-16 md:pb-24">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
@@ -319,6 +323,34 @@ export default function HamburgAltona() {
             </div>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        <FAQ
+          heading={<>Häufige Fragen zum <span className="text-[#83ebeb]">Schlüsseldienst Altona</span></>}
+          subtitle="Alles, was Sie über unseren Schlüsseldienst in Hamburg-Altona wissen müssen."
+          items={[
+            {
+              question: "Was kostet ein Schlüsseldienst in Altona?",
+              answer: "Bei AJ Schlüsseldienst arbeiten wir mit fairen Festpreisen – ohne versteckte Kosten oder Nacht-Aufschläge. Die Kosten hängen von der Art der Türöffnung ab. Rufen Sie uns an und wir nennen Ihnen vorab den genauen Preis für Ihren Einsatz in Altona.",
+            },
+            {
+              question: "Wie schnell ist der Schlüsseldienst in Altona vor Ort?",
+              answer: "Unser Techniker ist in der Regel innerhalb von 20-30 Minuten bei Ihnen in Altona. Egal ob Altona-Altstadt, Ottensen, Bahrenfeld, Othmarschen oder Groß Flottbek – wir kennen die schnellsten Wege zu Ihnen.",
+            },
+            {
+              question: "Bieten Sie auch Schlüsselnotdienst in Altona nachts an?",
+              answer: "Ja, unser Schlüsselnotdienst in Altona ist 24 Stunden am Tag, 7 Tage die Woche erreichbar – auch nachts, am Wochenende und an Feiertagen. Rufen Sie einfach an und unser Techniker kommt sofort.",
+            },
+            {
+              question: "Welche Leistungen bieten Sie in Altona an?",
+              answer: "Wir bieten in Hamburg-Altona das volle Programm: Türöffnung, Autoöffnung, Tresoröffnung, Schließzylinder-Wechsel, Einbruchschutz und Reparatur von Einbruchschäden. Alles aus einer Hand und zu fairen Festpreisen.",
+            },
+            {
+              question: "Wird die Tür bei der Türöffnung in Altona beschädigt?",
+              answer: "Nein, in den allermeisten Fällen öffnen wir Ihre Tür komplett schadensfrei. Mit über 19 Jahren Erfahrung und professionellem Spezialwerkzeug garantieren wir eine schonende Türöffnung in Altona ohne Beschädigung am Schloss oder Türrahmen.",
+            },
+          ]}
+        />
 
         {/* Final CTA */}
         <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] overflow-hidden">

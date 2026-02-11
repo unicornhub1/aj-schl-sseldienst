@@ -5,14 +5,14 @@ import Image from "next/image";
 import FAQ from "@/components/FAQ";
 
 export const metadata = {
-  title: "Türöffnung Hamburg | 24/7 Schlüsseldienst Türöffnung | AJ Schlüsseldienst",
-  description: "Ausgesperrt in Hamburg? Professionelle Türöffnung ohne Schäden. In 20-30 Min vor Ort. Faire Festpreise, keine versteckten Kosten. Tür öffnen lassen vom Profi. ☎ 040 18204419",
+  title: "Tresoröffnung Hamburg | Tresor öffnen lassen | AJ Schlüsseldienst",
+  description: "Professionelle Tresoröffnung in Hamburg. Kombination vergessen? Schlüssel verloren? Tresor Notöffnung 24/7. Faire Festpreise. ☎ 040 18204419",
   alternates: {
-    canonical: "https://aj-schluesseldienst.de/leistungen/tueroeffnung",
+    canonical: "https://aj-schluesseldienst.de/leistungen/tresoroeffnung",
   },
 };
 
-export default function Tueroeffnung() {
+export default function Tresoroeffnung() {
   return (
     <>
       <Header />
@@ -24,12 +24,12 @@ export default function Tueroeffnung() {
               {/* Left Content */}
               <div className="text-white">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Professionelle <span className="text-[#83ebeb]">Türöffnung</span><br />
+                  Professionelle <span className="text-[#83ebeb]">Tresoröffnung</span><br />
                   in Hamburg
                 </h1>
 
                 <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
-                  Ausgesperrt oder Schlüssel verloren? Unser Schlüsseldienst in Hamburg öffnet Ihre Haus- oder Wohnungstür schnell, zuverlässig und ohne Schäden – zu fairen Festpreisen. Rund um die Uhr erreichbar.
+                  Tresor lässt sich nicht öffnen? Kombination vergessen oder Schlüssel verloren? Wir öffnen Ihren Safe schnell, fachgerecht und wenn möglich zerstörungsfrei – zu fairen Festpreisen.
                 </p>
 
                 <div className="flex flex-wrap gap-4">
@@ -62,11 +62,11 @@ export default function Tueroeffnung() {
                 {/* Emergency Badge */}
                 <div className="flex items-center justify-center gap-2 bg-red-600 rounded-full px-4 py-2 mb-6 w-fit mx-auto">
                   <span className="w-3 h-3 bg-white rounded-full animate-pulse"></span>
-                  <span className="text-white font-medium">24/7 Notfall-Hotline</span>
+                  <span className="text-white font-medium">24/7 Tresor-Notdienst</span>
                 </div>
 
                 <h2 className="text-2xl md:text-3xl font-bold text-[#1a1a1a] text-center mb-6">
-                  Türöffnung Hamburg
+                  Tresor Notöffnung Hamburg
                 </h2>
 
                 {/* 4 Features */}
@@ -75,13 +75,13 @@ export default function Tueroeffnung() {
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">In 20-30 Minuten vor Ort</span>
+                    <span className="text-gray-700">Alle Tresortypen und Hersteller</span>
                   </div>
                   <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Türöffnung ohne Beschädigung</span>
+                    <span className="text-gray-700">Zerstörungsfreie Öffnung wenn möglich</span>
                   </div>
                   <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -108,7 +108,7 @@ export default function Tueroeffnung() {
                 </a>
 
                 <p className="text-gray-500 text-sm text-center mt-4">
-                  Direkt zum Techniker – kein Callcenter
+                  Direkt zum Techniker - kein Callcenter
                 </p>
               </div>
             </div>
@@ -122,15 +122,15 @@ export default function Tueroeffnung() {
           </div>
         </section>
 
-        {/* Wann brauchen Sie Türöffnung Section */}
+        {/* Wann brauchen Sie eine Tresoröffnung Section */}
         <section className="py-16 md:py-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-12 md:mb-16">
               {/* Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
                 <Image
-                  src="/images/tuerschloss.png"
-                  alt="Türöffnung Hamburg - Schlüsseldienst Türöffnung"
+                  src="/images/experience.png"
+                  alt="Tresoröffnung Hamburg - Professionelle Safe Öffnung"
                   width={600}
                   height={400}
                   className="w-full h-auto object-cover"
@@ -140,7 +140,7 @@ export default function Tueroeffnung() {
               {/* Text Content */}
               <div className="order-1 lg:order-2">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-6">
-                  Wann brauchen Sie eine <span className="text-[#83ebeb]">Türöffnung?</span>
+                  Wann brauchen Sie eine <span className="text-[#83ebeb]">Tresoröffnung?</span>
                 </h2>
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
@@ -150,8 +150,8 @@ export default function Tueroeffnung() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Schlüssel vergessen oder verloren</h3>
-                      <p className="text-gray-600">Kommt vor – wir helfen schnell und unkompliziert. Unser Schlüsseldienst öffnet Ihre Wohnungstür in wenigen Minuten.</p>
+                      <h3 className="font-bold text-[#1a1a1a]">Kombination vergessen</h3>
+                      <p className="text-gray-600">Zahlenkombination nicht mehr bekannt? Wir öffnen Ihren Tresor fachgerecht.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -161,8 +161,8 @@ export default function Tueroeffnung() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Schlüssel im Schloss abgebrochen</h3>
-                      <p className="text-gray-600">Wir entfernen den Schlüsselrest und öffnen die Tür schadensfrei. Anschließend beraten wir Sie zum Schlossaustausch.</p>
+                      <h3 className="font-bold text-[#1a1a1a]">Tresorschlüssel verloren</h3>
+                      <p className="text-gray-600">Schlüssel weg? Wir können Ihr Tresorschloss öffnen und einen neuen Schlüssel anfertigen.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -172,8 +172,8 @@ export default function Tueroeffnung() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Tür zugefallen (Schnapper)</h3>
-                      <p className="text-gray-600">In Sekunden geöffnet – ohne Schaden am Schloss oder der Tür. Die häufigste Art der Türöffnung in Hamburg.</p>
+                      <h3 className="font-bold text-[#1a1a1a]">Schloss defekt oder blockiert</h3>
+                      <p className="text-gray-600">Mechanik klemmt oder Elektronik ausgefallen? Wir reparieren oder tauschen das Schloss.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -183,8 +183,8 @@ export default function Tueroeffnung() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Defektes Schloss</h3>
-                      <p className="text-gray-600">Schlüssel lässt sich nicht drehen? Wir öffnen die Tür und reparieren oder tauschen das Schloss fachgerecht aus.</p>
+                      <h3 className="font-bold text-[#1a1a1a]">Erbschafts-Tresor öffnen</h3>
+                      <p className="text-gray-600">Geerbten Tresor ohne Zugangsdaten? Wir öffnen ihn diskret und professionell.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -194,8 +194,8 @@ export default function Tueroeffnung() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a1a1a]">Einbruchschaden an der Tür</h3>
-                      <p className="text-gray-600">Nach einem Einbruch sichern wir Ihre Tür sofort und sorgen für ein neues, sicheres Schloss.</p>
+                      <h3 className="font-bold text-[#1a1a1a]">Firmentresor & Wertschutzschrank</h3>
+                      <p className="text-gray-600">Auch gewerbliche Tresore und Wertschutzschränke öffnen wir zuverlässig.</p>
                     </div>
                   </div>
                 </div>
@@ -218,15 +218,15 @@ export default function Tueroeffnung() {
               <div className="text-center lg:text-left">
                 <div className="inline-flex items-center gap-2 bg-red-600 rounded-full px-4 py-2 mb-6">
                   <span className="w-3 h-3 bg-white rounded-full animate-pulse"></span>
-                  <span className="text-white font-medium">24/7 Notfall-Hotline</span>
+                  <span className="text-white font-medium">24/7 Tresor-Notdienst</span>
                 </div>
 
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-                  Ausgesperrt? Tür öffnen lassen – sofort!
+                  Tresor öffnen lassen? Wir helfen sofort!
                 </h2>
 
                 <p className="text-gray-300 text-lg mb-8">
-                  Rufen Sie uns direkt an oder schreiben Sie per WhatsApp – wir sind in 20-30 Minuten bei Ihnen und öffnen Ihre Tür schadensfrei!
+                  Rufen Sie uns direkt an oder schreiben Sie uns per WhatsApp – wir beraten Sie kostenlos und unverbindlich zur Tresoröffnung in Hamburg.
                 </p>
 
                 <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
@@ -258,7 +258,7 @@ export default function Tueroeffnung() {
               <div className="hidden lg:flex justify-center">
                 <Image
                   src="/images/ajplus800.jpg"
-                  alt="AJ Schlüsseldienst - Türöffnung Hamburg anrufen"
+                  alt="AJ Schlüsseldienst - Tresoröffnung Hamburg"
                   width={400}
                   height={400}
                   className="w-auto h-auto max-h-[350px] object-contain"
@@ -274,15 +274,15 @@ export default function Tueroeffnung() {
           </div>
         </section>
 
-        {/* So arbeiten wir Section */}
+        {/* So funktioniert die Tresoröffnung Section */}
         <section className="py-16 md:py-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 md:mb-16">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a] mb-4">
-                So funktioniert die <span className="text-[#83ebeb]">Türöffnung</span>
+                So funktioniert die <span className="text-[#83ebeb]">Tresoröffnung</span>
               </h2>
               <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                In 3 einfachen Schritten sind Sie wieder in Ihrer Wohnung – schnell und ohne Schäden.
+                In 3 einfachen Schritten öffnen wir Ihren Tresor professionell und sicher.
               </p>
             </div>
 
@@ -292,9 +292,9 @@ export default function Tueroeffnung() {
                 <div className="w-20 h-20 bg-[#83ebeb] rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl font-bold text-[#1a1a1a]">1</span>
                 </div>
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Anruf oder WhatsApp</h3>
+                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Kontakt aufnehmen</h3>
                 <p className="text-gray-600">
-                  Rufen Sie uns an unter 040 18204419 oder schreiben Sie per WhatsApp. Wir sind rund um die Uhr erreichbar – auch nachts und an Feiertagen.
+                  Rufen Sie uns an unter 040 18204419 oder schreiben Sie per WhatsApp. Beschreiben Sie Ihren Tresor und das Problem.
                 </p>
               </div>
 
@@ -303,9 +303,9 @@ export default function Tueroeffnung() {
                 <div className="w-20 h-20 bg-[#83ebeb] rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl font-bold text-[#1a1a1a]">2</span>
                 </div>
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Ankunft in 20-30 Minuten</h3>
+                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Analyse & Angebot</h3>
                 <p className="text-gray-600">
-                  Unser Techniker macht sich sofort auf den Weg und ist in 20-30 Minuten bei Ihnen vor Ort in Hamburg – mit allem nötigen Werkzeug.
+                  Wir analysieren den Tresortyp und die beste Öffnungsmethode. Sie erhalten einen transparenten Festpreis.
                 </p>
               </div>
 
@@ -314,9 +314,9 @@ export default function Tueroeffnung() {
                 <div className="w-20 h-20 bg-[#83ebeb] rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl font-bold text-[#1a1a1a]">3</span>
                 </div>
-                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Schadensfreie Türöffnung</h3>
+                <h3 className="text-xl font-bold text-[#1a1a1a] mb-3">Safe öffnen</h3>
                 <p className="text-gray-600">
-                  Professionelle Öffnung mit Spezialwerkzeug – ohne Beschädigung an Tür oder Schloss. Sie sind wieder drin und zahlen nur den vereinbarten Festpreis.
+                  Professionelle Tresoröffnung vor Ort – wenn möglich zerstörungsfrei. Auf Wunsch mit neuem Schloss.
                 </p>
               </div>
             </div>
@@ -324,32 +324,28 @@ export default function Tueroeffnung() {
         </section>
 
         <FAQ
-          heading={<>Häufige Fragen zur <span className="text-[#83ebeb]">Türöffnung</span></>}
-          subtitle="Alles, was Sie über unsere Türöffnung in Hamburg wissen müssen."
+          heading={<>Häufige Fragen zur <span className="text-[#83ebeb]">Tresoröffnung</span></>}
+          subtitle="Alles was Sie über unsere Tresoröffnung in Hamburg wissen müssen."
           items={[
             {
-              question: "Was kostet eine Türöffnung in Hamburg?",
-              answer: "Bei AJ Schlüsseldienst arbeiten wir mit fairen Festpreisen. Die Kosten für eine Türöffnung hängen von der Art des Schlosses und der Tageszeit ab. Bei einer einfachen zugefallenen Tür (Schnapper) ist die Öffnung besonders günstig. Rufen Sie uns an und wir nennen Ihnen vorab den genauen Preis – ohne versteckte Kosten oder Aufschläge.",
+              question: "Was kostet eine Tresoröffnung in Hamburg?",
+              answer: "Die Kosten einer Tresoröffnung hängen vom Tresortyp, der Sicherheitsstufe und der benötigten Öffnungsmethode ab. Einfache Tresore können bereits ab ca. 150 EUR geöffnet werden. Hochsicherheitstresore erfordern mehr Aufwand. Wir nennen Ihnen vorab einen verbindlichen Festpreis – ohne versteckte Kosten.",
             },
             {
-              question: "Wird die Tür bei der Türöffnung beschädigt?",
-              answer: "Nein, in den allermeisten Fällen öffnen wir Ihre Tür komplett schadensfrei. Mit über 19 Jahren Erfahrung und professionellem Spezialwerkzeug garantieren wir eine schonende Türöffnung ohne Beschädigung am Schloss oder Türrahmen. Nur bei Hochsicherheitsschlössern kann in seltenen Fällen ein Schlossaustausch nötig sein – darüber informieren wir Sie vorher transparent.",
+              question: "Welche Methoden nutzen Sie bei der Tresoröffnung?",
+              answer: "Wir setzen auf schonende Verfahren: Manipulation des Schlosses, Schloss-Picking, Dekodierung von Zahlenschlössern oder elektronische Überbrückung. Nur wenn keine zerstörungsfreie Methode möglich ist, greifen wir auf Bohr- oder Schneidtechniken zurück. Das Tresorschloss kann anschließend erneuert werden.",
             },
             {
-              question: "Wie schnell sind Sie bei einer Türöffnung vor Ort?",
-              answer: "Unser Schlüsseldienst ist in der Regel innerhalb von 20-30 Minuten bei Ihnen vor Ort in Hamburg. Wir sind in allen Stadtteilen im Einsatz – von Altona und Eimsbüttel über Barmbek und Wandsbek bis nach Harburg und Bergedorf.",
+              question: "Welche Tresortypen können Sie öffnen?",
+              answer: "Wir öffnen alle gängigen Tresortypen: Möbeltresore, Wandtresore, Standtresore, Wertschutzschränke, Dokumententresore, Datensicherungsschränke und Firmentresore. Egal ob mit Schlüssel, Zahlenkombination oder elektronischem Schloss – wir haben die Erfahrung und das Werkzeug.",
             },
             {
-              question: "Bieten Sie Türöffnungen auch nachts und am Wochenende an?",
-              answer: "Ja, unser 24/7 Schlüsseldienst ist rund um die Uhr für Sie da – auch nachts, am Wochenende und an Feiertagen. Egal wann Sie sich aussperren, rufen Sie uns an und unser Techniker kommt sofort zu Ihnen.",
+              question: "Kann der Tresor nach der Öffnung weiter genutzt werden?",
+              answer: "Bei einer zerstörungsfreien Tresoröffnung kann der Safe in der Regel sofort weiter genutzt werden. Wir können das Schloss neu einstellen oder ein neues Tresorschloss einbauen. Bei einer destruktiven Öffnung beraten wir Sie gerne zu Reparatur oder Ersatz.",
             },
             {
-              question: "Welche Türen können Sie öffnen?",
-              answer: "Wir öffnen alle gängigen Türtypen: Wohnungstüren, Haustüren, Kellertüren, Bürotüren und Zimmertüren. Ob einfaches Schnappschloss, Buntbartschloss oder Sicherheitsschloss – mit unserem Spezialwerkzeug und über 19 Jahren Erfahrung finden wir immer eine Lösung.",
-            },
-            {
-              question: "Brauche ich einen Nachweis, dass es meine Wohnung ist?",
-              answer: "Ja, aus Sicherheitsgründen benötigen wir einen Nachweis, dass Sie berechtigt sind, die Wohnung zu betreten. Das kann ein Personalausweis mit der entsprechenden Adresse, ein Mietvertrag oder eine Bestätigung des Vermieters sein. So schützen wir Sie und Ihre Nachbarn.",
+              question: "Bieten Sie Tresoröffnung auch am Wochenende und nachts an?",
+              answer: "Ja, unser Tresor-Notdienst in Hamburg ist 24 Stunden am Tag, 7 Tage die Woche erreichbar. Ob Werktag, Wochenende oder Feiertag – rufen Sie uns an und wir kümmern uns um Ihre Tresor Notöffnung.",
             },
           ]}
         />
@@ -364,10 +360,10 @@ export default function Tueroeffnung() {
 
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Ihr Experte für <span className="text-[#83ebeb]">Türöffnung in Hamburg</span>
+              Ihr Experte für <span className="text-[#83ebeb]">Tresoröffnung in Hamburg</span>
             </h2>
             <p className="text-gray-300 text-lg mb-8">
-              Über 19 Jahre Erfahrung. Faire Festpreise. Schadensfreie Türöffnung. Zufriedene Kunden in ganz Hamburg.
+              Über 19 Jahre Erfahrung. Alle Tresortypen. Faire Festpreise. Diskret und zuverlässig.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a
