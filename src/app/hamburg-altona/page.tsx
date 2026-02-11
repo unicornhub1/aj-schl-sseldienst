@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/StickyCallButton";
 import FAQ from "@/components/FAQ";
 import Image from "next/image";
+import GoogleRating from "@/components/GoogleRating";
 
 export const metadata = {
   title: "Schlüsseldienst Altona | 24/7 Notdienst Hamburg | AJ Schlüsseldienst",
@@ -31,6 +32,10 @@ export default function HamburgAltona() {
                 <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
                   Ihr zuverlässiger Schlüsseldienst in Altona, Ottensen, Bahrenfeld und Umgebung. Schnell vor Ort, faire Preise, keine versteckten Kosten.
                 </p>
+
+                <div className="mb-6">
+                  <GoogleRating variant="dark" />
+                </div>
 
                 <a
                   href="tel:+494018204419"

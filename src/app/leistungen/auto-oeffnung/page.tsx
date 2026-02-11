@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/StickyCallButton";
 import Image from "next/image";
 import FAQ from "@/components/FAQ";
+import GoogleRating from "@/components/GoogleRating";
 
 export const metadata = {
   title: "Auto öffnen Hamburg | Schlüsseldienst Auto öffnen | AJ Schlüsseldienst",
@@ -28,9 +29,13 @@ export default function AutoOeffnung() {
                   in Hamburg
                 </h1>
 
-                <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
+                <p className="text-gray-300 text-lg md:text-xl mb-6 leading-relaxed">
                   Schlüssel im Auto eingesperrt? Unser Auto Schlüsseldienst in Hamburg hilft sofort! Wir öffnen Ihr Fahrzeug schnell, schadensfrei und zu fairen Festpreisen – rund um die Uhr.
                 </p>
+
+                <div className="mb-6">
+                  <GoogleRating variant="dark" />
+                </div>
 
                 <div className="flex flex-wrap gap-4">
                   <a

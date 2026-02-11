@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/StickyCallButton";
 import Image from "next/image";
 import FAQ from "@/components/FAQ";
+import GoogleRating from "@/components/GoogleRating";
 
 export const metadata = {
   title: "Schlüsselnotdienst Hamburg | 24h Schlüsseldienst Notruf | AJ Schlüsseldienst",
@@ -28,9 +29,13 @@ export default function Schluesselnotdienst() {
                   Hamburg – 24/7
                 </h1>
 
-                <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
+                <p className="text-gray-300 text-lg md:text-xl mb-6 leading-relaxed">
                   Ausgesperrt oder Schlüssel verloren? Unser Schlüssel Notdienst in Hamburg ist rund um die Uhr für Sie da – schnell, zuverlässig und zu fairen Festpreisen. Rufen Sie jetzt unsere Notfall-Hotline an.
                 </p>
+
+                <div className="mb-6">
+                  <GoogleRating variant="dark" />
+                </div>
 
                 <div className="flex flex-wrap gap-4">
                   <a

@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/StickyCallButton";
 import Image from "next/image";
 import FAQ from "@/components/FAQ";
+import GoogleRating from "@/components/GoogleRating";
 
 export const metadata = {
   title: "Tresoröffnung Hamburg | Tresor öffnen lassen | AJ Schlüsseldienst",
@@ -28,9 +29,13 @@ export default function Tresoroeffnung() {
                   in Hamburg
                 </h1>
 
-                <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
+                <p className="text-gray-300 text-lg md:text-xl mb-6 leading-relaxed">
                   Tresor lässt sich nicht öffnen? Kombination vergessen oder Schlüssel verloren? Wir öffnen Ihren Safe schnell, fachgerecht und wenn möglich zerstörungsfrei – zu fairen Festpreisen.
                 </p>
+
+                <div className="mb-6">
+                  <GoogleRating variant="dark" />
+                </div>
 
                 <div className="flex flex-wrap gap-4">
                   <a
