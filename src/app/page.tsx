@@ -105,7 +105,7 @@ export default function Home() {
                 </h1>
 
                 <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
-                  Ihr Schlüsselnotdienst in Hamburg – schnelle und professionelle Hilfe bei Türöffnungen, Autoöffnungen, Tresoröffnungen und allen Schloss-Problemen. Fair, transparent und 24 Stunden erreichbar.
+                  Ihr <strong>Schlüsselnotdienst in Hamburg</strong> – schnelle und professionelle Hilfe bei Türöffnungen, Autoöffnungen, Tresoröffnungen und allen Schloss-Problemen. <strong>Fair, transparent</strong> und 24 Stunden erreichbar.
                 </p>
 
                 <div className="flex flex-wrap items-center gap-3">
@@ -145,32 +145,32 @@ export default function Home() {
                 </h2>
 
                 {/* 4 Features */}
-                <div className="space-y-3 mb-8">
-                  <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
+                <ul className="space-y-3 mb-8 list-none">
+                  <li className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span className="text-gray-700">Sofort Hilfe bei Ausgesperrt-Situationen</span>
-                  </div>
-                  <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
+                  </li>
+                  <li className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">In 20-30 Minuten vor Ort</span>
-                  </div>
-                  <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
+                    <span className="text-gray-700"><strong>In 20-30 Minuten vor Ort</strong></span>
+                  </li>
+                  <li className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">Faire Festpreise - keine versteckten Kosten</span>
-                  </div>
-                  <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
+                    <span className="text-gray-700"><strong>Faire Festpreise</strong> - keine versteckten Kosten</span>
+                  </li>
+                  <li className="flex items-center gap-3 bg-gray-50 rounded-lg p-3">
                     <svg className="w-5 h-5 text-[#83ebeb] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700">24/7 erreichbar - auch Feiertags</span>
-                  </div>
-                </div>
+                    <span className="text-gray-700"><strong>24/7 erreichbar</strong> - auch Feiertags</span>
+                  </li>
+                </ul>
 
                 <a
                   href="tel:+494018204419"
@@ -206,6 +206,7 @@ export default function Home() {
                 <Image
                   src="/images/experience.png"
                   alt="AJ Schlüsseldienst Team"
+                  title="AJ Schlüsseldienst Hamburg – Über 19 Jahre Erfahrung"
                   width={600}
                   height={400}
                   className="w-full h-auto object-cover"
@@ -218,7 +219,7 @@ export default function Home() {
                   Über <span className="text-[#83ebeb]">19 Jahre</span> Berufserfahrung
                 </h2>
                 <p className="text-gray-600 text-lg">
-                  Bei AJ Schlüsseldienst legen wir Wert auf persönlichen Service. Sie sprechen direkt mit unserem erfahrenen Techniker, der Ihnen mit Rat und Tat zur Seite steht.
+                  Bei <strong>AJ Schlüsseldienst</strong> legen wir Wert auf persönlichen Service. Sie sprechen direkt mit unserem erfahrenen Techniker, der Ihnen mit Rat und Tat zur Seite steht.
                 </p>
               </div>
             </div>
@@ -319,6 +320,7 @@ export default function Home() {
                 <Image
                   src="/images/ajplus800.jpg"
                   alt="Jetzt AJ Schlüsseldienst anrufen"
+                  title="AJ Schlüsseldienst – Jetzt anrufen 040 18204419"
                   width={400}
                   height={400}
                   className="w-auto h-auto max-h-[350px] object-contain"
@@ -599,7 +601,7 @@ export default function Home() {
                 Ihr <span className="text-[#83ebeb]">Schlüsseldienst</span> in ganz Hamburg
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Wir sind Ihr zuverlässiger Schlüsselnotdienst in Hamburg und Umgebung. In 20-30 Minuten sind wir bei Ihnen – egal in welchem Stadtteil.
+                Wir sind Ihr <strong>zuverlässiger Schlüsselnotdienst in Hamburg</strong> und Umgebung. In 20-30 Minuten sind wir bei Ihnen – egal in welchem Stadtteil.
               </p>
             </div>
 

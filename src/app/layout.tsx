@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: "Schlüsseldienst Hamburg | 24/7 Schlüsselnotdienst | AJ Schlüsseldienst",
     template: "%s | AJ Schlüsseldienst Hamburg",
   },
-  description: "Schlüsseldienst Hamburg ✓ 24/7 Schlüsselnotdienst ✓ In 20-30 Min. vor Ort ✓ Faire Festpreise ✓ Keine versteckten Kosten ✓ Türöffnung, Autoöffnung, Tresoröffnung ✓ 19 Jahre Erfahrung ☎ 040 18204419",
+  description: "Schlüsseldienst Hamburg ✓ 24/7 Schlüsselnotdienst ✓ In 20-30 Min. vor Ort ✓ Faire Festpreise ✓ Türöffnung, Autoöffnung & Tresoröffnung ☎ 040 18204419",
   keywords: "schlüsseldienst hamburg, schlüsselnotdienst, schlüsselnotdienst hamburg, türöffnung hamburg, schlüsseldienst auto öffnen, tresoröffnung hamburg, 24h schlüsseldienst, schlüsseldienst harburg, schlüsseldienst altona, schlüsseldienst wandsbek, schlüsseldienst barmbek, schlüsseldienst bergedorf, schlüsseldienst eimsbüttel, hamburg schlüsseldienst, schlüsseldienste hamburg",
   openGraph: {
     title: "Schlüsseldienst Hamburg | 24/7 Schlüsselnotdienst – Schnell & Fair",
@@ -20,6 +20,19 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
     siteName: "AJ Schlüsseldienst Hamburg",
+    url: "https://aj-schluesseldienst.de",
+    images: [
+      {
+        url: "https://aj-schluesseldienst.de/images/ajplus800.jpg",
+        width: 800,
+        height: 800,
+        alt: "AJ Schlüsseldienst Hamburg – Ihr 24/7 Schlüsselnotdienst",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://aj-schluesseldienst.de/images/ajplus800.jpg"],
   },
   robots: {
     index: true,
