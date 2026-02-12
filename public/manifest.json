@@ -1,0 +1,21 @@
+{
+  "name": "AJ Schlüsseldienst Hamburg",
+  "short_name": "AJ Schlüsseldienst",
+  "description": "Schlüsseldienst Hamburg 24/7 – Faire Festpreise, in 20-30 Min. vor Ort.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#83ebeb",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
