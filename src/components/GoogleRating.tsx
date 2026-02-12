@@ -7,13 +7,20 @@ const RATING = "5.0";
 const REVIEW_COUNT = "1.108";
 // ============================================
 
+const GOOGLE_MAPS_URL = "https://www.google.com/maps/search/AJ+Schl%C3%BCsseldienst+Hamburg";
+
 export default function GoogleRating({ variant = "dark" }: { variant?: "dark" | "light" }) {
   const isDark = variant === "dark";
 
   return (
     <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6">
-      {/* Google Rating */}
-      <div className="flex items-center gap-2.5">
+      {/* Google Rating - linked to Google Maps */}
+      <a
+        href={GOOGLE_MAPS_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2.5 hover:opacity-80 transition-opacity"
+      >
         {/* Google "G" Logo SVG */}
         <svg className="w-7 h-7 flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4" />
@@ -34,7 +41,7 @@ export default function GoogleRating({ variant = "dark" }: { variant?: "dark" | 
         {/* Rating + Count */}
         <span className={`text-lg font-bold ${isDark ? "text-white" : "text-[#1a1a1a]"}`}>{RATING}</span>
         <span className={`text-sm ${isDark ? "text-gray-300" : "text-gray-500"}`}>({REVIEW_COUNT} Bewertungen)</span>
-      </div>
+      </a>
 
       {/* Fokus Medienpartner Badge */}
       <Image
