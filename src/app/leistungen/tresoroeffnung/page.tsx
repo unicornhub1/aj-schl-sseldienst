@@ -102,15 +102,21 @@ export default function Tresoroeffnung() {
                   </div>
                 </div>
 
-                <a
-                  href="tel:+494018204419"
-                  className="flex items-center justify-center gap-3 w-full bg-amber-400 hover:bg-amber-500 text-[#1a1a1a] font-bold py-5 rounded-xl text-xl transition-all duration-300 hover:scale-[1.02] shadow-lg"
-                >
-                  <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                {/* Mobile: Roter Pfeil nach unten zu den CTAs */}
+                <div className="lg:hidden flex flex-col items-center gap-2 mt-2">
+                  <span className="text-gray-500 font-medium text-sm">Jetzt Kontakt aufnehmen</span>
+                  <svg className="w-8 h-8 text-red-500 animate-bounce" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                   </svg>
-                  Jetzt anrufen
-                </a>
+                </div>
+
+                {/* Desktop: Roter Pfeil nach links zu den CTAs */}
+                <div className="hidden lg:flex items-center justify-center gap-3 mt-2">
+                  <svg className="w-8 h-8 text-red-500 animate-[bounce-left_1s_ease-in-out_infinite]" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                  </svg>
+                  <span className="text-gray-500 font-medium text-sm">Jetzt Kontakt aufnehmen</span>
+                </div>
 
                 <p className="text-gray-500 text-sm text-center mt-4">
                   Direkt zum Techniker - kein Callcenter
