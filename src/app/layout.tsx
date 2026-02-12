@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Schlüsseldienst Hamburg | 24/7 Schlüsselnotdienst | AJ Schlüsseldienst",
+    default: "Schlüsseldienst Hamburg 24/7 | AJ Schlüsseldienst",
     template: "%s | AJ Schlüsseldienst Hamburg",
   },
   description: "Schlüsseldienst Hamburg ✓ 24/7 Schlüsselnotdienst ✓ In 20-30 Min. vor Ort ✓ Faire Festpreise ✓ Türöffnung, Autoöffnung & Tresoröffnung ☎ 040 18204419",
