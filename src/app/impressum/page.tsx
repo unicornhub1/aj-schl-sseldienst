@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Impressum | AJ Schlüsseldienst Hamburg",
-  description: "Impressum von AJ Schlüsseldienst Hamburg. Angaben gemäß § 5 TMG. Betreiber: Herr K. Kassim, Hamburger Straße 209, 22083 Hamburg.",
+  description: "Impressum von AJ Schlüsseldienst Hamburg. Angaben gemäß § 5 TMG. Betreiber: Herr K. Kassim, Winterhuder Weg 59, 22085 Hamburg.",
   alternates: {
     canonical: "https://aj-schluesseldienst.de/impressum",
   },
@@ -50,8 +50,8 @@ export default function Impressum() {
                 <div className="bg-gray-50 rounded-2xl p-6">
                   <p className="text-gray-700 leading-relaxed">
                     <strong>Herr K. Kassim</strong><br />
-                    Hamburger Straße 209<br />
-                    22083 Hamburg<br />
+                    Winterhuder Weg 59<br />
+                    22085 Hamburg<br />
                     Deutschland
                   </p>
                 </div>
@@ -114,8 +114,8 @@ export default function Impressum() {
                 <div className="bg-gray-50 rounded-2xl p-6">
                   <p className="text-gray-700 leading-relaxed">
                     <strong>Kassim Kassim</strong><br />
-                    Hamburger Straße 209<br />
-                    22083 Hamburg<br />
+                    Winterhuder Weg 59<br />
+                    22085 Hamburg<br />
                     Deutschland
                   </p>
                 </div>

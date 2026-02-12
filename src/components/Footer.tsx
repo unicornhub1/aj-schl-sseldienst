@@ -85,7 +85,7 @@ export default function Footer() {
                 info@aj-schluesseldienst.de
               </a>
               <a
-                href="https://wa.me/494018204419"
+                href="https://wa.me/4917666699227"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-400 hover:text-[#25D366] transition-colors"

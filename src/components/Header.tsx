@@ -94,7 +94,7 @@ export default function Header() {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://wa.me/494018204419"
+              href="https://wa.me/4917666699227"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center w-10 h-10 bg-[#25D366] hover:bg-[#20bd5a] rounded-full transition-all duration-300 hover:scale-110"
@@ -190,7 +190,7 @@ export default function Header() {
                   Anrufen
                 </a>
                 <a
-                  href="https://wa.me/494018204419"
+                  href="https://wa.me/4917666699227"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-5 py-3 rounded-full transition-colors"

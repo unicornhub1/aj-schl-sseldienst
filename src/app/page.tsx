@@ -23,6 +23,8 @@ export default function Home() {
             url: "https://aj-schluesseldienst.de",
             address: {
               "@type": "PostalAddress",
+              streetAddress: "Winterhuder Weg 59",
+              postalCode: "22085",
               addressLocality: "Hamburg",
               addressRegion: "HH",
               addressCountry: "DE",
@@ -124,7 +126,7 @@ export default function Home() {
                     040 18204419
                   </a>
                   <a
-                    href="https://wa.me/494018204419"
+                    href="https://wa.me/4917666699227"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-6 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg"
