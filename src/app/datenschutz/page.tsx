@@ -4,7 +4,7 @@ import StickyCallButton from "@/components/StickyCallButton";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Datenschutzerklärung | AJ Schlüsseldienst Hamburg",
+  title: "Datenschutzerklärung",
   description: "Datenschutzerklärung von AJ Schlüsseldienst Hamburg. Keine Cookies, keine Datensammlung. Datenschutzfreundliche Analyse mit Plausible.",
   alternates: {
     canonical: "https://aj-schluesseldienst.de/datenschutz",

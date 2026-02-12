@@ -6,8 +6,8 @@ import FAQ from "@/components/FAQ";
 import GoogleRating from "@/components/GoogleRating";
 
 export const metadata = {
-  title: "Schlüsselnotdienst Hamburg | 24h Schlüsseldienst Notruf | AJ Schlüsseldienst",
-  description: "Schlüsselnotdienst Hamburg – 24/7 Notfall Schlüsseldienst. In 20-30 Min vor Ort. Faire Festpreise, keine versteckten Kosten. Jetzt anrufen: 040 18204419",
+  title: "Schlüsselnotdienst Hamburg 24/7",
+  description: "Schlüsselnotdienst Hamburg – 24/7 Notfall-Hilfe. In 20-30 Min vor Ort. Faire Festpreise, keine versteckten Kosten. ☎ 040 18204419",
   alternates: {
     canonical: "https://aj-schluesseldienst.de/schluesselnotdienst",
   },

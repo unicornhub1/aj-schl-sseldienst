@@ -6,8 +6,8 @@ import FAQ from "@/components/FAQ";
 import GoogleRating from "@/components/GoogleRating";
 
 export const metadata = {
-  title: "Tresoröffnung Hamburg | Tresor öffnen lassen | AJ Schlüsseldienst",
-  description: "Professionelle Tresoröffnung in Hamburg. Kombination vergessen? Schlüssel verloren? Tresor Notöffnung 24/7. Faire Festpreise. ☎ 040 18204419",
+  title: "Tresoröffnung Hamburg 24/7",
+  description: "Tresor öffnen lassen in Hamburg. Kombination vergessen? Schlüssel verloren? Notöffnung 24/7. Faire Festpreise. ☎ 040 18204419",
   alternates: {
     canonical: "https://aj-schluesseldienst.de/leistungen/tresoroeffnung",
   },

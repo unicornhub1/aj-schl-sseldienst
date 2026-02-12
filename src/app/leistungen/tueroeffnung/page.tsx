@@ -6,8 +6,8 @@ import FAQ from "@/components/FAQ";
 import GoogleRating from "@/components/GoogleRating";
 
 export const metadata = {
-  title: "Türöffnung Hamburg | 24/7 Schlüsseldienst Türöffnung | AJ Schlüsseldienst",
-  description: "Ausgesperrt in Hamburg? Professionelle Türöffnung ohne Schäden. In 20-30 Min vor Ort. Faire Festpreise, keine versteckten Kosten. Tür öffnen lassen vom Profi. ☎ 040 18204419",
+  title: "Türöffnung Hamburg 24/7",
+  description: "Ausgesperrt in Hamburg? Professionelle Türöffnung ohne Schäden. In 20-30 Min vor Ort. Faire Festpreise. ☎ 040 18204419",
   alternates: {
     canonical: "https://aj-schluesseldienst.de/leistungen/tueroeffnung",
   },

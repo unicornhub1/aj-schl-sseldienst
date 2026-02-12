@@ -6,8 +6,8 @@ import FAQ from "@/components/FAQ";
 import GoogleRating from "@/components/GoogleRating";
 
 export const metadata = {
-  title: "Auto öffnen Hamburg | Schlüsseldienst Auto öffnen | AJ Schlüsseldienst",
-  description: "Auto zugefallen? Schlüssel im Auto eingeschlossen? Professionelle Autoöffnung in Hamburg ohne Schäden. 24/7 Autoschlüssel Notdienst. Faire Festpreise. ☎ 040 18204419",
+  title: "Autoöffnung Hamburg 24/7",
+  description: "Schlüssel im Auto? Professionelle Autoöffnung in Hamburg ohne Schäden. 24/7 Notdienst. Faire Festpreise. ☎ 040 18204419",
   alternates: {
     canonical: "https://aj-schluesseldienst.de/leistungen/auto-oeffnung",
   },

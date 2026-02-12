@@ -6,8 +6,8 @@ import Image from "next/image";
 import GoogleRating from "@/components/GoogleRating";
 
 export const metadata = {
-  title: "Schlüsseldienst Altona | 24/7 Notdienst Hamburg | AJ Schlüsseldienst",
-  description: "Schlüsseldienst in Hamburg-Altona. In 20-30 Min vor Ort. Faire Festpreise, keine versteckten Kosten. 24/7 Notdienst. ☎ 040 18204419",
+  title: "Schlüsseldienst Altona 24/7",
+  description: "Schlüsseldienst Hamburg-Altona – in 20-30 Min vor Ort. Faire Festpreise, keine versteckten Kosten. 24/7 Notdienst. ☎ 040 18204419",
   alternates: {
     canonical: "https://aj-schluesseldienst.de/hamburg-altona",
   },

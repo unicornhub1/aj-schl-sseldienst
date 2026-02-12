@@ -4,7 +4,7 @@ import StickyCallButton from "@/components/StickyCallButton";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Impressum | AJ Schlüsseldienst Hamburg",
+  title: "Impressum",
   description: "Impressum von AJ Schlüsseldienst Hamburg. Angaben gemäß § 5 TMG. Betreiber: Herr K. Kassim, Winterhuder Weg 59, 22085 Hamburg.",
   alternates: {
     canonical: "https://aj-schluesseldienst.de/impressum",
