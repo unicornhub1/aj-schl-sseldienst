@@ -120,13 +120,21 @@ export default function Footer() {
             <p className="text-gray-500 text-sm">
               &copy; {new Date().getFullYear()} A+J Schlüsseldienst Hamburg. Alle Rechte vorbehalten.
             </p>
-            <div className="flex gap-6 text-sm">
+            <div className="flex flex-wrap gap-6 text-sm items-center">
               <Link href="/impressum" className="text-gray-500 hover:text-[#83ebeb] transition-colors">
                 Impressum
               </Link>
               <Link href="/datenschutz" className="text-gray-500 hover:text-[#83ebeb] transition-colors">
                 Datenschutz
               </Link>
+              <a
+                href="https://www.unicorn-factory.net"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-[#83ebeb] transition-colors"
+              >
+                Designed by UnicornFactory
+              </a>
             </div>
           </div>
         </div>
