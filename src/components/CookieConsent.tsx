@@ -201,7 +201,7 @@ function CookieBanner({
                   </button>
                   <button
                     onClick={onAcceptAll}
-                    className="flex-1 rounded-full border border-white/20 py-3 text-sm font-semibold text-white transition-all hover:bg-white/5 cursor-pointer"
+                    className="flex-1 rounded-full bg-amber-400 py-3 text-sm font-bold text-[#1a1a1a] transition-all hover:bg-amber-500 cursor-pointer"
                   >
                     Alle akzeptieren
                   </button>
