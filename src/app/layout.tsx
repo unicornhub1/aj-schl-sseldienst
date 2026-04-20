@@ -43,6 +43,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://aj-schluesseldienst.de",
   },
+  verification: {
+    google: "cfipww3RuQxNQAlRS7qCmv3lyB2nRin9E9g_CoU20Ks",
+  },
 };
 
 export default function RootLayout({
