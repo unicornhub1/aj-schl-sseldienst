@@ -619,34 +619,34 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              <Link href="/hamburg-harburg" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Harburg</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Harburg – 24/7 erreichbar</p>
-              </div>
+              </Link>
               <Link href="/hamburg-altona" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Altona</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Türöffnung in Altona – schnell vor Ort</p>
               </Link>
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              <Link href="/hamburg-wandsbek" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Wandsbek</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Wandsbek – faire Preise</p>
-              </div>
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              </Link>
+              <Link href="/hamburg-bergedorf" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Bergedorf</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Bergedorf – Notöffnung 24h</p>
-              </div>
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              </Link>
+              <Link href="/hamburg-eimsbuettel" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Eimsbüttel</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Türöffnung Eimsbüttel – ohne Beschädigung</p>
-              </div>
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              </Link>
+              <Link href="/hamburg-barmbek" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Barmbek</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsseldienst Hamburg Barmbek – Ihr Profi</p>
-              </div>
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              </Link>
+              <Link href="/hamburg-wilhelmsburg" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Wilhelmsburg</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Notdienst Wilhelmsburg – rund um die Uhr</p>
-              </div>
+              </Link>
               <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Bramfeld</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsseldienst Bramfeld – in 20 Min. da</p>
@@ -655,14 +655,14 @@ export default function Home() {
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Rahlstedt</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsseldienst Rahlstedt – Festpreis</p>
               </div>
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              <Link href="/hamburg-ottensen" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Ottensen</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Türöffnung Ottensen – professionell & fair</p>
-              </div>
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              </Link>
+              <Link href="/hamburg-eppendorf" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Eppendorf</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Eppendorf – zuverlässig</p>
-              </div>
+              </Link>
               <Link href="/hamburg-winterhude" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Winterhude</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Winterhude – sofort Hilfe</p>

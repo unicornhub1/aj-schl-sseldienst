@@ -14,6 +14,12 @@ export const metadata = {
   alternates: {
     canonical: "https://aj-schluesseldienst.de/hamburg-winterhude",
   },
+  openGraph: {
+    title: "Schlüsseldienst Winterhude 24/7 | AJ Schlüsseldienst Hamburg",
+    description:
+      "Schlüsseldienst Hamburg-Winterhude – Standort direkt am Winterhuder Weg, in 20-30 Min vor Ort. Faire Festpreise, 24/7 Notdienst.",
+    url: "https://aj-schluesseldienst.de/hamburg-winterhude",
+  },
 };
 
 export default function HamburgWinterhude() {

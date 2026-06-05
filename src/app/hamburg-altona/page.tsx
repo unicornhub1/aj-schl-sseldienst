@@ -13,6 +13,12 @@ export const metadata = {
   alternates: {
     canonical: "https://aj-schluesseldienst.de/hamburg-altona",
   },
+  openGraph: {
+    title: "Schlüsseldienst Altona 24/7 | AJ Schlüsseldienst Hamburg",
+    description:
+      "Schlüsseldienst Hamburg-Altona – in 20-30 Min vor Ort. Faire Festpreise, keine versteckten Kosten. 24/7 Notdienst.",
+    url: "https://aj-schluesseldienst.de/hamburg-altona",
+  },
 };
 
 export default function HamburgAltona() {

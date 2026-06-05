@@ -16,6 +16,14 @@ const stadtteile = [
 const stadtteilLinks: Record<string, string> = {
   Altona: "/hamburg-altona",
   Winterhude: "/hamburg-winterhude",
+  Eimsbüttel: "/hamburg-eimsbuettel",
+  Barmbek: "/hamburg-barmbek",
+  Eppendorf: "/hamburg-eppendorf",
+  Wandsbek: "/hamburg-wandsbek",
+  Harburg: "/hamburg-harburg",
+  Bergedorf: "/hamburg-bergedorf",
+  Ottensen: "/hamburg-ottensen",
+  Wilhelmsburg: "/hamburg-wilhelmsburg",
 };
 
 export default function Footer() {
