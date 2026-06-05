@@ -663,10 +663,10 @@ export default function Home() {
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Eppendorf</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Eppendorf – zuverlässig</p>
               </div>
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              <Link href="/hamburg-winterhude" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Winterhude</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Winterhude – sofort Hilfe</p>
-              </div>
+              </Link>
             </div>
 
             <div className="mt-8 text-center">

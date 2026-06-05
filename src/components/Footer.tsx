@@ -11,6 +11,13 @@ const stadtteile = [
   "Uhlenhorst", "Volksdorf", "Wandsbek", "Wentorf", "Wilhelmsburg", "Winterhude"
 ];
 
+// Stadtteile mit eigener Landingpage werden im Footer verlinkt (Hub-and-Spoke).
+// Beim Bau einer neuen /hamburg-{slug}-Seite hier eintragen.
+const stadtteilLinks: Record<string, string> = {
+  Altona: "/hamburg-altona",
+  Winterhude: "/hamburg-winterhude",
+};
+
 export default function Footer() {
   return (
     <footer className="bg-[#1a1a1a] text-white">
@@ -110,7 +117,21 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-gray-800">
           <h3 className="text-lg font-bold mb-4 text-[#83ebeb]">Schlüsseldienst in</h3>
           <p className="text-gray-500 text-sm leading-relaxed">
-            {stadtteile.join(" | ")}
+            {stadtteile.map((name, i) => {
+              const href = stadtteilLinks[name];
+              return (
+                <span key={name}>
+                  {i > 0 && " | "}
+                  {href ? (
+                    <Link href={href} className="hover:text-[#83ebeb] hover:underline underline-offset-2 transition-colors">
+                      {name}
+                    </Link>
+                  ) : (
+                    name
+                  )}
+                </span>
+              );
+            })}
           </p>
         </div>
 
