@@ -4,7 +4,7 @@ import Link from "next/link";
 const stadtteile = [
   "Alsterdorf", "Altona", "Bahrenfeld", "Bargteheide", "Barmbek", "Bergedorf",
   "Billstedt", "Blankenese", "Bramfeld", "Dulsberg", "Eidelstedt", "Eilbek",
-  "Eimsbüttel", "Eppendorf", "Fuhlsbüttel", "Glinde", "Hamm", "Harburg",
+  "Eimsbüttel", "Eppendorf", "Farmsen", "Fuhlsbüttel", "Glinde", "Hamm", "Harburg",
   "Harvestehude", "Horn", "Jenfeld", "Langenhorn", "Lohbrügge", "Lokstedt",
   "Niendorf", "Norderstedt", "Ottensen", "Pinneberg", "Poppenbüttel", "Rahlstedt",
   "Reinbek", "Sasel", "Schnelsen", "St. Pauli", "Steilshoop", "Stellingen",
@@ -24,6 +24,9 @@ const stadtteilLinks: Record<string, string> = {
   Bergedorf: "/hamburg-bergedorf",
   Ottensen: "/hamburg-ottensen",
   Wilhelmsburg: "/hamburg-wilhelmsburg",
+  Bramfeld: "/hamburg-bramfeld",
+  Blankenese: "/hamburg-blankenese",
+  Farmsen: "/hamburg-farmsen",
 };
 
 export default function Footer() {

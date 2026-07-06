@@ -647,10 +647,10 @@ export default function Home() {
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Wilhelmsburg</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Notdienst Wilhelmsburg – rund um die Uhr</p>
               </Link>
-              <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+              <Link href="/hamburg-bramfeld" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Bramfeld</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsseldienst Bramfeld – in 20 Min. da</p>
-              </div>
+              </Link>
               <div className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Rahlstedt</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsseldienst Rahlstedt – Festpreis</p>
@@ -666,6 +666,14 @@ export default function Home() {
               <Link href="/hamburg-winterhude" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
                 <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Winterhude</h3>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Winterhude – sofort Hilfe</p>
+              </Link>
+              <Link href="/hamburg-blankenese" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Blankenese</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Türöffnung Blankenese – auch im Treppenviertel</p>
+              </Link>
+              <Link href="/hamburg-farmsen" className="bg-gray-50 rounded-xl p-4 hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 group">
+                <h3 className="font-bold text-[#1a1a1a] group-hover:text-[#83ebeb] transition-colors">Schlüsseldienst Farmsen</h3>
+                <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors">Schlüsselnotdienst Farmsen-Berne – 24/7</p>
               </Link>
             </div>
 

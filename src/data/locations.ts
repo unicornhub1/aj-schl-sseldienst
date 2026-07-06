@@ -164,6 +164,66 @@ export const locations: Record<string, LocationData> = {
       { question: "Wird die Tür bei der Türöffnung in Wilhelmsburg beschädigt?", answer: "Nein, in den allermeisten Fällen öffnen wir Ihre Tür komplett schadensfrei. Mit über 19 Jahren Erfahrung und Spezialwerkzeug garantieren wir eine schonende Türöffnung in Wilhelmsburg." },
     ],
   },
+  bramfeld: {
+    slug: "bramfeld",
+    name: "Bramfeld",
+    title: "Schlüsseldienst Bramfeld 24/7",
+    description:
+      "Schlüsseldienst Hamburg-Bramfeld – besonders schnell vor Ort (Standort in der Nähe). Türöffnung ohne Schäden, faire Festpreise, 24/7 Notdienst. ☎ 040 18204419",
+    heroIntro:
+      "Ihr zuverlässiger Schlüsseldienst in Bramfeld – von der Bramfelder Chaussee über den Dorfplatz bis zum Bramfelder See und Steilshoop. Unser Standort liegt in der Nähe, daher sind wir besonders schnell bei Ihnen.",
+    speedFeature: "Standort in der Nähe – oft in 15-20 Min da",
+    areaIntro:
+      "Ob an der Bramfelder Chaussee, am Bramfelder Dorfplatz, rund um den Bramfelder See oder in Steilshoop – unser Techniker kennt Bramfeld und ist rund um die Uhr für Sie im Einsatz.",
+    areas: ["Bramfelder Chaussee & Dorfplatz", "Rund um den Bramfelder See", "Steilshoop & Steilshooper Allee", "Hellbrookkamp & Bramfeld-Süd"],
+    faq: [
+      { question: "Was kostet ein Schlüsseldienst in Bramfeld?", answer: "Wir arbeiten mit fairen Festpreisen – ohne versteckte Kosten oder Nacht-Aufschläge. Rufen Sie uns an und wir nennen Ihnen vorab den genauen Preis für Ihren Einsatz in Bramfeld." },
+      { question: "Wie schnell ist der Schlüsseldienst in Bramfeld vor Ort?", answer: "Besonders schnell: Unser Standort am Winterhuder Weg liegt nur wenige Minuten von Bramfeld entfernt. Dadurch sind wir oft schon in 15-20 Minuten bei Ihnen – ob an der Bramfelder Chaussee, am Bramfelder See oder in Steilshoop." },
+      { question: "Bieten Sie Schlüsselnotdienst in Bramfeld auch nachts an?", answer: "Ja, unser Schlüsselnotdienst in Bramfeld ist 24 Stunden am Tag, 7 Tage die Woche erreichbar – auch nachts, am Wochenende und an Feiertagen." },
+      { question: "Welche Leistungen bieten Sie in Bramfeld an?", answer: "Wir bieten in Bramfeld das volle Programm: Türöffnung, Autoöffnung, Tresoröffnung, Schließzylinder-Wechsel, Einbruchschutz und Reparatur von Einbruchschäden – alles aus einer Hand zu fairen Festpreisen." },
+      { question: "Wird die Tür bei der Türöffnung in Bramfeld beschädigt?", answer: "Nein, in den allermeisten Fällen öffnen wir Ihre Tür komplett schadensfrei. Mit über 19 Jahren Erfahrung und Spezialwerkzeug garantieren wir eine schonende Türöffnung in Bramfeld." },
+    ],
+  },
+  blankenese: {
+    slug: "blankenese",
+    name: "Blankenese",
+    title: "Schlüsseldienst Blankenese 24/7",
+    description:
+      "Schlüsseldienst Hamburg-Blankenese – in 20-30 Min vor Ort. Türöffnung ohne Schäden, faire Festpreise, 24/7 Notdienst. ☎ 040 18204419",
+    heroIntro:
+      "Ihr zuverlässiger Schlüsseldienst in Blankenese – vom Treppenviertel über die Blankeneser Bahnhofstraße bis zum Süllberg und Elbstrand. Schnell vor Ort, faire Preise, keine versteckten Kosten.",
+    speedFeature: "In 20-30 Minuten in Blankenese",
+    areaIntro:
+      "Ob im Treppenviertel mit seinen verwinkelten Gassen, an der Blankeneser Bahnhofstraße, am Süllberg oder unten am Elbstrand – unser Techniker ist rund um die Uhr für Sie im Einsatz.",
+    areas: ["Treppenviertel & Strandweg", "Blankeneser Bahnhofstraße & Markt", "Süllberg & Baurs Park", "Dockenhuden & Blankeneser Landstraße"],
+    faq: [
+      { question: "Was kostet ein Schlüsseldienst in Blankenese?", answer: "Wir arbeiten mit fairen Festpreisen – ohne versteckte Kosten oder Nacht-Aufschläge. Rufen Sie uns an und wir nennen Ihnen vorab den genauen Preis für Ihren Einsatz in Blankenese." },
+      { question: "Wie schnell ist der Schlüsseldienst in Blankenese vor Ort?", answer: "In der Regel sind wir innerhalb von 20-30 Minuten bei Ihnen – egal ob im Treppenviertel, an der Bahnhofstraße oder in Dockenhuden. Auch die engen Gassen im Treppenviertel sind für uns kein Problem." },
+      { question: "Bieten Sie Schlüsselnotdienst in Blankenese auch nachts an?", answer: "Ja, unser Schlüsselnotdienst in Blankenese ist 24 Stunden am Tag, 7 Tage die Woche erreichbar – auch nachts, am Wochenende und an Feiertagen." },
+      { question: "Welche Leistungen bieten Sie in Blankenese an?", answer: "Wir bieten in Blankenese das volle Programm: Türöffnung, Autoöffnung, Tresoröffnung, Schließzylinder-Wechsel, Einbruchschutz und Reparatur von Einbruchschäden – alles aus einer Hand zu fairen Festpreisen." },
+      { question: "Wird die Tür bei der Türöffnung in Blankenese beschädigt?", answer: "Nein, in den allermeisten Fällen öffnen wir Ihre Tür komplett schadensfrei. Mit über 19 Jahren Erfahrung und Spezialwerkzeug garantieren wir eine schonende Türöffnung in Blankenese." },
+    ],
+  },
+  farmsen: {
+    slug: "farmsen",
+    name: "Farmsen",
+    title: "Schlüsseldienst Farmsen 24/7",
+    description:
+      "Schlüsseldienst Hamburg-Farmsen – in 20-30 Min vor Ort. Türöffnung ohne Schäden, faire Festpreise, 24/7 Notdienst. ☎ 040 18204419",
+    heroIntro:
+      "Ihr zuverlässiger Schlüsseldienst in Farmsen-Berne – vom U-Bahnhof Farmsen über die August-Krogmann-Straße bis zum Trabrennbahn-Quartier und Berne. Schnell vor Ort, faire Preise, keine versteckten Kosten.",
+    speedFeature: "In 20-30 Minuten in Farmsen",
+    areaIntro:
+      "Ob rund um den U-Bahnhof Farmsen, an der August-Krogmann-Straße, im Trabrennbahn-Quartier oder in Berne – unser Techniker kennt Farmsen und ist rund um die Uhr für Sie im Einsatz.",
+    areas: ["Rund um den U-Bahnhof Farmsen", "August-Krogmann-Straße & Trabrennbahn-Quartier", "Berner Heerweg & Berne", "Farmsen-Süd & Berner Au"],
+    faq: [
+      { question: "Was kostet ein Schlüsseldienst in Farmsen?", answer: "Wir arbeiten mit fairen Festpreisen – ohne versteckte Kosten oder Nacht-Aufschläge. Rufen Sie uns an und wir nennen Ihnen vorab den genauen Preis für Ihren Einsatz in Farmsen." },
+      { question: "Wie schnell ist der Schlüsseldienst in Farmsen vor Ort?", answer: "In der Regel sind wir innerhalb von 20-30 Minuten bei Ihnen – egal ob am U-Bahnhof Farmsen, an der August-Krogmann-Straße, im Trabrennbahn-Quartier oder in Berne." },
+      { question: "Bieten Sie Schlüsselnotdienst in Farmsen auch nachts an?", answer: "Ja, unser Schlüsselnotdienst in Farmsen ist 24 Stunden am Tag, 7 Tage die Woche erreichbar – auch nachts, am Wochenende und an Feiertagen." },
+      { question: "Welche Leistungen bieten Sie in Farmsen an?", answer: "Wir bieten in Farmsen das volle Programm: Türöffnung, Autoöffnung, Tresoröffnung, Schließzylinder-Wechsel, Einbruchschutz und Reparatur von Einbruchschäden – alles aus einer Hand zu fairen Festpreisen." },
+      { question: "Wird die Tür bei der Türöffnung in Farmsen beschädigt?", answer: "Nein, in den allermeisten Fällen öffnen wir Ihre Tür komplett schadensfrei. Mit über 19 Jahren Erfahrung und Spezialwerkzeug garantieren wir eine schonende Türöffnung in Farmsen." },
+    ],
+  },
 };
 
 export const locationSlugs = Object.keys(locations);
