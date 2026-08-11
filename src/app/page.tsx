@@ -584,9 +584,27 @@ export default function Home() {
               Faire <span className="text-[#83ebeb]">Festpreise</span>
             </h2>
 
-            <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-              Schloss oder Zylinder wechseln? Wir nennen Ihnen alle Kosten vorab – transparent und ohne versteckte Gebühren!
+            <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">
+              Bei uns kennen Sie den Preis, bevor der Techniker losfährt – transparent, verbindlich und ohne versteckte Gebühren. So einfach geht das:
             </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-10 text-left">
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
+                <div className="w-10 h-10 bg-[#83ebeb] rounded-full flex items-center justify-center font-bold text-[#1a1a1a] text-lg mb-4">1</div>
+                <h3 className="text-white font-bold text-lg mb-2">Anrufen &amp; Situation schildern</h3>
+                <p className="text-gray-300">Tür zugefallen oder abgeschlossen? Wohnung, Auto oder Tresor? Sie erreichen direkt den Techniker – kein Callcenter.</p>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
+                <div className="w-10 h-10 bg-[#83ebeb] rounded-full flex items-center justify-center font-bold text-[#1a1a1a] text-lg mb-4">2</div>
+                <h3 className="text-white font-bold text-lg mb-2">Festpreis am Telefon</h3>
+                <p className="text-gray-300">Sie bekommen sofort den verbindlichen Endpreis – ohne Anfahrtskosten, ohne Nacht-, Wochenend- oder Feiertagszuschlag.</p>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
+                <div className="w-10 h-10 bg-[#83ebeb] rounded-full flex items-center justify-center font-bold text-[#1a1a1a] text-lg mb-4">3</div>
+                <h3 className="text-white font-bold text-lg mb-2">Preis bleibt Preis</h3>
+                <p className="text-gray-300">Bezahlt wird erst nach getaner Arbeit – bar oder mit Karte. Es gilt exakt der Preis aus dem Telefonat, keine Überraschungen.</p>
+              </div>
+            </div>
 
             <a
               href="tel:+494018204419"
@@ -831,7 +849,7 @@ export default function Home() {
           items={[
             {
               question: "Was kostet ein Schlüsseldienst in Hamburg?",
-              answer: "Bei AJ Schlüsseldienst arbeiten wir mit fairen Festpreisen – ohne versteckte Kosten oder überhöhte Nacht-Aufschläge. Die Kosten hängen von der Art der Türöffnung und der Tageszeit ab. Rufen Sie uns an und wir nennen Ihnen vorab den genauen Preis.",
+              answer: "Bei AJ Schlüsseldienst arbeiten wir mit fairen Festpreisen – ohne versteckte Kosten, Anfahrtsgebühren oder Nacht-Aufschläge. Der Preis hängt nur von der Art der Öffnung ab: Eine zugefallene Tür ist günstiger als eine abgeschlossene. Rufen Sie an, schildern Sie kurz die Situation, und Sie bekommen den verbindlichen Endpreis am Telefon – bevor der Techniker losfährt.",
             },
             {
               question: "Wie schnell ist der Schlüsseldienst in Hamburg vor Ort?",
