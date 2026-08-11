@@ -166,7 +166,7 @@ export default function LocationPage({ data }: { data: LocationData }) {
 
         {/* CTA */}
         <section className="relative pt-20 pb-20 md:pt-28 md:pb-28 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] overflow-hidden">
-          <div className="wave-divider-top"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff"><path d={WAVE}></path></svg></div>
+          <div className="wave-divider-top"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#f9fafb"><path d={WAVE}></path></svg></div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               <div className="text-center lg:text-left">
@@ -251,7 +251,7 @@ export default function LocationPage({ data }: { data: LocationData }) {
 
         {/* Final CTA */}
         <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] overflow-hidden">
-          <div className="wave-divider-top"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#ffffff"><path d={WAVE}></path></svg></div>
+          <div className="wave-divider-top"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="#f9fafb"><path d={WAVE}></path></svg></div>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">Ihr Schlüsselprofi <span className="text-[#83ebeb]">in {n}</span></h2>
             <p className="text-gray-300 text-lg mb-8">Über 19 Jahre Erfahrung. Faire Preise. Zufriedene Kunden in ganz {n}.</p>
